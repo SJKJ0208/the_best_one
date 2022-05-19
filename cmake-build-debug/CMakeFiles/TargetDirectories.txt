@@ -1,0 +1,3 @@
+C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir
+C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/rebuild_cache.dir
