@@ -128,6 +128,78 @@ Test_280.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/build
 .PHONY : Test_280.elf/fast
 
+Core/Inc/LCD/lcd.obj: Core/Inc/LCD/lcd.c.obj
+.PHONY : Core/Inc/LCD/lcd.obj
+
+# target to build an object file
+Core/Inc/LCD/lcd.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+.PHONY : Core/Inc/LCD/lcd.c.obj
+
+Core/Inc/LCD/lcd.i: Core/Inc/LCD/lcd.c.i
+.PHONY : Core/Inc/LCD/lcd.i
+
+# target to preprocess a source file
+Core/Inc/LCD/lcd.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.i
+.PHONY : Core/Inc/LCD/lcd.c.i
+
+Core/Inc/LCD/lcd.s: Core/Inc/LCD/lcd.c.s
+.PHONY : Core/Inc/LCD/lcd.s
+
+# target to generate assembly for a file
+Core/Inc/LCD/lcd.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.s
+.PHONY : Core/Inc/LCD/lcd.c.s
+
+Core/Inc/LCD/lcd_init.obj: Core/Inc/LCD/lcd_init.c.obj
+.PHONY : Core/Inc/LCD/lcd_init.obj
+
+# target to build an object file
+Core/Inc/LCD/lcd_init.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+.PHONY : Core/Inc/LCD/lcd_init.c.obj
+
+Core/Inc/LCD/lcd_init.i: Core/Inc/LCD/lcd_init.c.i
+.PHONY : Core/Inc/LCD/lcd_init.i
+
+# target to preprocess a source file
+Core/Inc/LCD/lcd_init.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.i
+.PHONY : Core/Inc/LCD/lcd_init.c.i
+
+Core/Inc/LCD/lcd_init.s: Core/Inc/LCD/lcd_init.c.s
+.PHONY : Core/Inc/LCD/lcd_init.s
+
+# target to generate assembly for a file
+Core/Inc/LCD/lcd_init.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.s
+.PHONY : Core/Inc/LCD/lcd_init.c.s
+
+Core/Inc/LED/led.obj: Core/Inc/LED/led.c.obj
+.PHONY : Core/Inc/LED/led.obj
+
+# target to build an object file
+Core/Inc/LED/led.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+.PHONY : Core/Inc/LED/led.c.obj
+
+Core/Inc/LED/led.i: Core/Inc/LED/led.c.i
+.PHONY : Core/Inc/LED/led.i
+
+# target to preprocess a source file
+Core/Inc/LED/led.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.i
+.PHONY : Core/Inc/LED/led.c.i
+
+Core/Inc/LED/led.s: Core/Inc/LED/led.c.s
+.PHONY : Core/Inc/LED/led.s
+
+# target to generate assembly for a file
+Core/Inc/LED/led.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s
+.PHONY : Core/Inc/LED/led.c.s
+
 Core/Inc/st7789/fonts.obj: Core/Inc/st7789/fonts.c.obj
 .PHONY : Core/Inc/st7789/fonts.obj
 
@@ -817,6 +889,15 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Test_280.elf
+	@echo ... Core/Inc/LCD/lcd.obj
+	@echo ... Core/Inc/LCD/lcd.i
+	@echo ... Core/Inc/LCD/lcd.s
+	@echo ... Core/Inc/LCD/lcd_init.obj
+	@echo ... Core/Inc/LCD/lcd_init.i
+	@echo ... Core/Inc/LCD/lcd_init.s
+	@echo ... Core/Inc/LED/led.obj
+	@echo ... Core/Inc/LED/led.i
+	@echo ... Core/Inc/LED/led.s
 	@echo ... Core/Inc/st7789/fonts.obj
 	@echo ... Core/Inc/st7789/fonts.i
 	@echo ... Core/Inc/st7789/fonts.s

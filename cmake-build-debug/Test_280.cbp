@@ -26,6 +26,8 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc/LED"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart"/>
@@ -57,6 +59,8 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc/LED"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart"/>
@@ -100,6 +104,30 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd_init.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd_init.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcdfont.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/pic.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LED/led.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/LED/led.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/gpio.h">
 			<Option target="Test_280.elf"/>
 		</Unit>

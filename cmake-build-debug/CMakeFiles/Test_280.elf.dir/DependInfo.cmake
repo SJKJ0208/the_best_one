@@ -21,6 +21,8 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../Core/Inc/LCD"
+  "../Core/Inc/LED"
   "../Core/SYSTEM/delay"
   "../Core/SYSTEM/sys"
   "../Core/SYSTEM/usart"
@@ -31,6 +33,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd_init.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/Inc/LED/led.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/st7789/fonts.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/test_os/test_os.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay/delay.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-debug/CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
@@ -70,6 +75,8 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Core/Inc/LCD"
+  "../Core/Inc/LED"
   "../Core/SYSTEM/delay"
   "../Core/SYSTEM/sys"
   "../Core/SYSTEM/usart"
