@@ -1,6 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
+  "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
+  "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj"
+  "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj"
@@ -8,7 +11,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-  "CMakeFiles/Test_280.elf.dir/Core/Src/usart.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj"
   "CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"

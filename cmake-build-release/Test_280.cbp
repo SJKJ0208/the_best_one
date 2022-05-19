@@ -26,6 +26,9 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -54,6 +57,9 @@
 				<Compiler>
 					<Add option="-DUSE_HAL_DRIVER"/>
 					<Add option="-DSTM32F103xB"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys"/>
+					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Core/Inc"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Inc"/>
 					<Add directory="C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"/>
@@ -124,7 +130,22 @@
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/test_os/test_os.h">
 			<Option target="Test_280.elf"/>
 		</Unit>
-		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/usart.h">
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay/delay.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay/delay.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys/sys.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys/sys.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.h">
 			<Option target="Test_280.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Src/gpio.c">
@@ -146,9 +167,6 @@
 			<Option target="Test_280.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Src/system_stm32f1xx.c">
-			<Option target="Test_280.elf"/>
-		</Unit>
-		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Src/usart.c">
 			<Option target="Test_280.elf"/>
 		</Unit>
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/retarget.c">

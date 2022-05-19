@@ -176,6 +176,78 @@ Core/Inc/test_os/test_os.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.s
 .PHONY : Core/Inc/test_os/test_os.c.s
 
+Core/SYSTEM/delay/delay.obj: Core/SYSTEM/delay/delay.c.obj
+.PHONY : Core/SYSTEM/delay/delay.obj
+
+# target to build an object file
+Core/SYSTEM/delay/delay.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+.PHONY : Core/SYSTEM/delay/delay.c.obj
+
+Core/SYSTEM/delay/delay.i: Core/SYSTEM/delay/delay.c.i
+.PHONY : Core/SYSTEM/delay/delay.i
+
+# target to preprocess a source file
+Core/SYSTEM/delay/delay.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.i
+.PHONY : Core/SYSTEM/delay/delay.c.i
+
+Core/SYSTEM/delay/delay.s: Core/SYSTEM/delay/delay.c.s
+.PHONY : Core/SYSTEM/delay/delay.s
+
+# target to generate assembly for a file
+Core/SYSTEM/delay/delay.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.s
+.PHONY : Core/SYSTEM/delay/delay.c.s
+
+Core/SYSTEM/sys/sys.obj: Core/SYSTEM/sys/sys.c.obj
+.PHONY : Core/SYSTEM/sys/sys.obj
+
+# target to build an object file
+Core/SYSTEM/sys/sys.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj
+.PHONY : Core/SYSTEM/sys/sys.c.obj
+
+Core/SYSTEM/sys/sys.i: Core/SYSTEM/sys/sys.c.i
+.PHONY : Core/SYSTEM/sys/sys.i
+
+# target to preprocess a source file
+Core/SYSTEM/sys/sys.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.i
+.PHONY : Core/SYSTEM/sys/sys.c.i
+
+Core/SYSTEM/sys/sys.s: Core/SYSTEM/sys/sys.c.s
+.PHONY : Core/SYSTEM/sys/sys.s
+
+# target to generate assembly for a file
+Core/SYSTEM/sys/sys.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.s
+.PHONY : Core/SYSTEM/sys/sys.c.s
+
+Core/SYSTEM/usart/usart.obj: Core/SYSTEM/usart/usart.c.obj
+.PHONY : Core/SYSTEM/usart/usart.obj
+
+# target to build an object file
+Core/SYSTEM/usart/usart.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+.PHONY : Core/SYSTEM/usart/usart.c.obj
+
+Core/SYSTEM/usart/usart.i: Core/SYSTEM/usart/usart.c.i
+.PHONY : Core/SYSTEM/usart/usart.i
+
+# target to preprocess a source file
+Core/SYSTEM/usart/usart.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.i
+.PHONY : Core/SYSTEM/usart/usart.c.i
+
+Core/SYSTEM/usart/usart.s: Core/SYSTEM/usart/usart.c.s
+.PHONY : Core/SYSTEM/usart/usart.s
+
+# target to generate assembly for a file
+Core/SYSTEM/usart/usart.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.s
+.PHONY : Core/SYSTEM/usart/usart.c.s
+
 Core/Src/gpio.obj: Core/Src/gpio.c.obj
 .PHONY : Core/Src/gpio.obj
 
@@ -343,30 +415,6 @@ Core/Src/system_stm32f1xx.s: Core/Src/system_stm32f1xx.c.s
 Core/Src/system_stm32f1xx.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.s
 .PHONY : Core/Src/system_stm32f1xx.c.s
-
-Core/Src/usart.obj: Core/Src/usart.c.obj
-.PHONY : Core/Src/usart.obj
-
-# target to build an object file
-Core/Src/usart.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Src/usart.c.obj
-.PHONY : Core/Src/usart.c.obj
-
-Core/Src/usart.i: Core/Src/usart.c.i
-.PHONY : Core/Src/usart.i
-
-# target to preprocess a source file
-Core/Src/usart.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Src/usart.c.i
-.PHONY : Core/Src/usart.c.i
-
-Core/Src/usart.s: Core/Src/usart.c.s
-.PHONY : Core/Src/usart.s
-
-# target to generate assembly for a file
-Core/Src/usart.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Src/usart.c.s
-.PHONY : Core/Src/usart.c.s
 
 Core/retarget.obj: Core/retarget.c.obj
 .PHONY : Core/retarget.obj
@@ -775,6 +823,15 @@ help:
 	@echo ... Core/Inc/test_os/test_os.obj
 	@echo ... Core/Inc/test_os/test_os.i
 	@echo ... Core/Inc/test_os/test_os.s
+	@echo ... Core/SYSTEM/delay/delay.obj
+	@echo ... Core/SYSTEM/delay/delay.i
+	@echo ... Core/SYSTEM/delay/delay.s
+	@echo ... Core/SYSTEM/sys/sys.obj
+	@echo ... Core/SYSTEM/sys/sys.i
+	@echo ... Core/SYSTEM/sys/sys.s
+	@echo ... Core/SYSTEM/usart/usart.obj
+	@echo ... Core/SYSTEM/usart/usart.i
+	@echo ... Core/SYSTEM/usart/usart.s
 	@echo ... Core/Src/gpio.obj
 	@echo ... Core/Src/gpio.i
 	@echo ... Core/Src/gpio.s
@@ -796,9 +853,6 @@ help:
 	@echo ... Core/Src/system_stm32f1xx.obj
 	@echo ... Core/Src/system_stm32f1xx.i
 	@echo ... Core/Src/system_stm32f1xx.s
-	@echo ... Core/Src/usart.obj
-	@echo ... Core/Src/usart.i
-	@echo ... Core/Src/usart.s
 	@echo ... Core/retarget.obj
 	@echo ... Core/retarget.i
 	@echo ... Core/retarget.s

@@ -21,6 +21,9 @@ set(CMAKE_TARGET_DEFINITIONS_ASM
 
 # The include file search paths:
 set(CMAKE_ASM_TARGET_INCLUDE_PATH
+  "../Core/SYSTEM/delay"
+  "../Core/SYSTEM/sys"
+  "../Core/SYSTEM/usart"
   "../Core/Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"
@@ -30,6 +33,9 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/st7789/fonts.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/test_os/test_os.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay/delay.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/sys/sys.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Src/gpio.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Src/main.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Src/spi.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj"
@@ -37,7 +43,6 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/o.o/Desktop/Test_280/Core/Src/stm32f1xx_it.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Src/syscalls.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Src/system_stm32f1xx.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj"
-  "C:/Users/o.o/Desktop/Test_280/Core/Src/usart.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Src/usart.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/retarget.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
@@ -65,6 +70,9 @@ set(CMAKE_TARGET_DEFINITIONS_C
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
+  "../Core/SYSTEM/delay"
+  "../Core/SYSTEM/sys"
+  "../Core/SYSTEM/usart"
   "../Core/Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc"
   "../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy"

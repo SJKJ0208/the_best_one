@@ -20,16 +20,17 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
 #include "spi.h"
-#include "usart.h"
 #include "gpio.h"
-
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stdlib.h"
-#include "retarget.h"
 #include "test_os/test_os.h"
+#include "retarget.h"
 #include "stdio.h"
 #include "math.h"
+#include "delay.h"
+#include "sys.h"
+#include "usart.h"
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -123,12 +124,13 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_USART1_UART_Init();
+  uart_init_1(115200);
+
   MX_SPI1_Init();
-  MX_USART2_UART_Init();
+  uart_init_2(115200);
   /* USER CODE BEGIN 2 */
   ///自锁
-    RetargetInit(&huart1);
+  RetargetInit(&UART1_Handler);
 
     //ST7789_Test();
 
@@ -158,90 +160,114 @@ int main(void)
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
+//    while(1)
+//    {
+//
+//        if(USART_RX_STA&0x8000)
+//        {
+//            len=USART_RX_STA&0x3fff;//得到此次接收到的数据长度
+//            printf("\r\n您发送的消息为:\r\n");
+//            HAL_UART_Transmit(&UART1_Handler,(uint8_t*)USART_RX_BUF,len,1000);	//发送接收到的数据
+//            while(__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_TC)!=SET);		//等待发送结束
+//            printf("\r\n\r\n");//插入换行
+//            USART_RX_STA=0;
+//        }else
+//        {
+//            times++;
+//            if(times%5000==0)
+//            {
+//                printf("\r\nALIENTEK 精英STM32开发板 串口实验\r\n");
+//                printf("正点原子@ALIENTEK\r\n\r\n\r\n");
+//            }
+//            if(times%200==0)printf("请输入数据,以回车键结束\r\n");
+//            if(times%30==0)LED0=!LED0;//闪烁LED,提示系统正在运行.
+//            delay_ms(10);
+//        }
+//    }
   while (1)
   {
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
-      if (re_draw == 1 && is_error == 0)
-      {
-          re_draw = 0;
-      }
-      if(!stata)
-          continue;
-      stata=0;
-      if(CHeck(data_buf))
-      {
-          count=0;
-          if(data_buf[2]&0x01) //ACC
-          {
-              Acc[0]=(data_buf[4]<<8)|data_buf[5];
-              Acc[1]=(data_buf[6]<<8)|data_buf[7];
-              Acc[2]=(data_buf[8]<<8)|data_buf[9];
-              count=6;
-          }
-          if(data_buf[2]&0x02) //GYRO
-          {
-              Gyr[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-              Gyr[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-              Gyr[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-              count+=6;
-          }
-          if(data_buf[2]&0x04) //MAG
-          {
-              Mag[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-              Mag[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-              Mag[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-              count+=6;
-          }
-
-          if(data_buf[2]&0x10) //欧拉角
-          {
-              rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-              rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-              rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-
-              HAL_Delay(20);
-              if((abs((float) rpy[0]/100)>50)||(abs((float) rpy[1]/100)>50))
-              {
-                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-                  is_error = 1;
-              }
-              else{
-                  is_error = 0;
-                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-              }
-              count+=6;
-              if((abs((float) rpy[0]/100)>10))
-              {
-                  if (((float) rpy[0]/100) <0)
-                  {
-
-                      ///ST7789_WriteString(ST7789_WIDTH/2+38, ST7789_HEIGHT/2-75, "UP", Font_16x26, BLACK, WHITE);
-                  }
-                  else {
-                      ///ST7789_WriteString(ST7789_WIDTH / 2 + 38, ST7789_HEIGHT / 2 - 75, "DOWN", Font_16x26, BLACK,WHITE);
-                  }
-              }
-          }
-          if(data_buf[2]&0x40) //温度
-          {
-              Temp=(data_buf[4+count]<<8)|data_buf[5+count];
-              printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
-              if ((float) Temp/100 > 34 && is_error == 0)
-              {
-                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "HIGHT", Font_16x26, BLACK, WHITE);
-              }
-              else if ((float) Temp/100 <= 34 && is_error == 0)
-              {
-                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "NOR", Font_16x26, BLACK, WHITE);
-
-              }
-              count+=2;
-          }
-      }
-      //warinning_task();
-  }
+//    /* USER CODE END WHILE */
+//
+//    /* USER CODE BEGIN 3 */
+//      if (re_draw == 1 && is_error == 0)
+//      {
+//          re_draw = 0;
+//      }
+//      if(!stata)
+//          continue;
+//      stata=0;
+//      if(CHeck(data_buf))
+//      {
+//          count=0;
+//          if(data_buf[2]&0x01) //ACC
+//          {
+//              Acc[0]=(data_buf[4]<<8)|data_buf[5];
+//              Acc[1]=(data_buf[6]<<8)|data_buf[7];
+//              Acc[2]=(data_buf[8]<<8)|data_buf[9];
+//              count=6;
+//          }
+//          if(data_buf[2]&0x02) //GYRO
+//          {
+//              Gyr[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+//              Gyr[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+//              Gyr[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+//              count+=6;
+//          }
+//          if(data_buf[2]&0x04) //MAG
+//          {
+//              Mag[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+//              Mag[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+//              Mag[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+//              count+=6;
+//          }
+//
+//          if(data_buf[2]&0x10) //欧拉角
+//          {
+//              rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+//              rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+//              rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+//
+//              HAL_Delay(20);
+//              if((abs((float) rpy[0]/100)>50)||(abs((float) rpy[1]/100)>50))
+//              {
+//                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
+//                  is_error = 1;
+//              }
+//              else{
+//                  is_error = 0;
+//                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
+//              }
+//              count+=6;
+//              if((abs((float) rpy[0]/100)>10))
+//              {
+//                  if (((float) rpy[0]/100) <0)
+//                  {
+//
+//                      ///ST7789_WriteString(ST7789_WIDTH/2+38, ST7789_HEIGHT/2-75, "UP", Font_16x26, BLACK, WHITE);
+//                  }
+//                  else {
+//                      ///ST7789_WriteString(ST7789_WIDTH / 2 + 38, ST7789_HEIGHT / 2 - 75, "DOWN", Font_16x26, BLACK,WHITE);
+//                  }
+//              }
+//          }
+//          if(data_buf[2]&0x40) //温度
+//          {
+//              Temp=(data_buf[4+count]<<8)|data_buf[5+count];
+//              printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
+//              if ((float) Temp/100 > 34 && is_error == 0)
+//              {
+//                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "HIGHT", Font_16x26, BLACK, WHITE);
+//              }
+//              else if ((float) Temp/100 <= 34 && is_error == 0)
+//              {
+//                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "NOR", Font_16x26, BLACK, WHITE);
+//
+//              }
+//              count+=2;
+//          }
+//      }
+//      //warinning_task();
+        }
   /* USER CODE END 3 */
 }
 
@@ -249,6 +275,7 @@ int main(void)
   * @brief System Clock Configuration
   * @retval None
   */
+
 void SystemClock_Config(void)
 {
   RCC_OscInitTypeDef RCC_OscInitStruct = {0};
