@@ -8,7 +8,7 @@ extern "C" {
 #include "main.h"
 
 #define USART_REC_LEN  			200  	//定义最大接收字节数 200
-
+#define EN_USART1_RX 1
 #define RXBUFFERSIZE  1
 extern UART_HandleTypeDef UART1_Handler; //UART句柄
 extern UART_HandleTypeDef UART2_Handler;

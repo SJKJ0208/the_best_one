@@ -284,6 +284,24 @@ stm32f1xx_hal_def.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.c
+sys.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/sys.h
+usart.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.h
+string.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/string.h
+includes.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/includes.h
+
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/usart.h
+stdio.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/stdio.h
+sys.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/sys.h
+main.h
+C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/usart/main.h
+
 C:/Users/o.o/Desktop/Test_280/Core/Src/main.c
 main.h
 C:/Users/o.o/Desktop/Test_280/Core/Src/main.h

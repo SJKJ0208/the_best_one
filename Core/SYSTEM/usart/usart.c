@@ -118,7 +118,8 @@ void uart_init_2(u32 bound)
         Error_Handler();
     }
     /* USER CODE BEGIN USART2_Init 2 */
-    HAL_UART_Receive_IT(&UART2_Handler, (uint8_t *)bRxBuffer, 1);//该函数会开启接收中断：标志位UART_IT_RXNE，并且设置接收缓冲以及接收缓冲接收
+    HAL_UART_Receive_IT(&UART2_Handler, (uint8_t *)bRxBuffer, RXBUFFERSIZE);
+    //该函数会开启接收中断：标志位UART_IT_RXNE，并且设置接收缓冲以及接收缓冲接收
     /* USER CODE END USART2_Init 2 */
 
 }
@@ -151,28 +152,29 @@ void HAL_UART_MspInit(UART_HandleTypeDef *huart)
         ///假若使用了接受，还需要设置中断
 #if EN_USART1_RX
 		HAL_NVIC_EnableIRQ(USART1_IRQn);				//使能USART1中断通道
-		HAL_NVIC_SetPriority(USART1_IRQn,3,3);			//抢占优先级3，子优先级3
+		HAL_NVIC_SetPriority(USART1_IRQn,0,0);			//抢占优先级3，子优先级3
 #endif
 	}
     else if(huart->Instance==USART2)
     {
+        GPIO_InitTypeDef GPIO_Initure2;
         /* USART2 clock enable */
         __HAL_RCC_USART2_CLK_ENABLE();
-
+        __HAL_RCC_AFIO_CLK_ENABLE();
         __HAL_RCC_GPIOA_CLK_ENABLE();
         /**USART2 GPIO Configuration
         PA2     ------> USART2_TX
         PA3     ------> USART2_RX
         */
-        GPIO_Initure.Pin = GPIO_PIN_2;
-        GPIO_Initure.Mode = GPIO_MODE_AF_PP;
-        GPIO_Initure.Speed = GPIO_SPEED_FREQ_HIGH;
-        HAL_GPIO_Init(GPIOA, &GPIO_Initure);
+        GPIO_Initure2.Pin = GPIO_PIN_2;
+        GPIO_Initure2.Mode = GPIO_MODE_AF_PP;
+        GPIO_Initure2.Speed = GPIO_SPEED_FREQ_HIGH;
+        HAL_GPIO_Init(GPIOA, &GPIO_Initure2);
 
-        GPIO_Initure.Pin = GPIO_PIN_3;
-        GPIO_Initure.Mode = GPIO_MODE_INPUT;
-        GPIO_Initure.Pull = GPIO_NOPULL;
-        HAL_GPIO_Init(GPIOA, &GPIO_Initure);
+        GPIO_Initure2.Pin = GPIO_PIN_3;
+        GPIO_Initure2.Mode = GPIO_MODE_INPUT;
+        GPIO_Initure2.Pull = GPIO_NOPULL;
+        HAL_GPIO_Init(GPIOA, &GPIO_Initure2);
 
         /* USART2 interrupt Init */
         ///设置接收中断

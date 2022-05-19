@@ -27,7 +27,6 @@ void RetargetInit(UART_HandleTypeDef *huart)
     setvbuf(stdout, NULL, _IONBF, 0);
 }
 
-
 int _write(int fd, char *ptr, int len)
 {
     HAL_StatusTypeDef hstatus;
@@ -44,6 +43,20 @@ int _write(int fd, char *ptr, int len)
     return -1;
 }
 
+int _read(int fd, char *ptr, int len)
+{
+    HAL_StatusTypeDef hstatus;
 
+    if (fd == STDIN_FILENO)
+    {
+        hstatus = HAL_UART_Receive(gHuart, (uint8_t *) ptr, 1, HAL_MAX_DELAY);
+        if (hstatus == HAL_OK)
+            return 1;
+        else
+            return EIO;
+    }
+    errno = EBADF;
+    return -1;
+}
 
 #endif //#if !defined(OS_USE_SEMIHOSTING)

@@ -123,67 +123,46 @@ int main(void)
   /* USER CODE END SysInit */
 
   /* Initialize all configured peripherals */
-  MX_GPIO_Init();
-  uart_init_1(115200);
+  delay_init(64);
+  //MX_GPIO_Init();
+
 
   MX_SPI1_Init();
-  uart_init_2(115200);
+ // uart_init_2(115200);
+  uart_init_1(115200);
   /* USER CODE BEGIN 2 */
   ///自锁
   RetargetInit(&UART1_Handler);
-
-    //ST7789_Test();
-
-//    ///判断是否为0
-//    if (HAL_GPIO_ReadPin(KEY_Enter_GPIO_Port,KEY_Enter_Pin)  == 0)
-//    {
-//        HAL_GPIO_WritePin(LOCK_GPIO_Port,LOCK_Pin,GPIO_PIN_RESET);
-//        HAL_Delay(300);
-//        if (HAL_GPIO_ReadPin(KEY_Enter_GPIO_Port,KEY_Enter_Pin)  != 0)
-//            return 0;
-//        HAL_Delay(1700);
-//        if (HAL_GPIO_ReadPin(KEY_Enter_GPIO_Port,KEY_Enter_Pin) == 0)
-//        {
-//            state_sys = 1;
-//            my_open_draw();
-//            HAL_GPIO_WritePin(LOCK_GPIO_Port,LOCK_Pin,GPIO_PIN_SET);
-//        }
-//        else
-//        {
-//            state_sys = 0;
-//            HAL_GPIO_WritePin(LOCK_GPIO_Port,LOCK_Pin,GPIO_PIN_SET);
-//            HAL_GPIO_WritePin(LCD_BL_GPIO_Port,LCD_BL_Pin,GPIO_PIN_RESET);
-//        }
-//    }
-
   /* USER CODE END 2 */
 
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
-//    while(1)
-//    {
-//
-//        if(USART_RX_STA&0x8000)
-//        {
-//            len=USART_RX_STA&0x3fff;//得到此次接收到的数据长度
-//            printf("\r\n您发送的消息为:\r\n");
-//            HAL_UART_Transmit(&UART1_Handler,(uint8_t*)USART_RX_BUF,len,1000);	//发送接收到的数据
-//            while(__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_TC)!=SET);		//等待发送结束
-//            printf("\r\n\r\n");//插入换行
-//            USART_RX_STA=0;
-//        }else
-//        {
-//            times++;
-//            if(times%5000==0)
-//            {
-//                printf("\r\nALIENTEK 精英STM32开发板 串口实验\r\n");
-//                printf("正点原子@ALIENTEK\r\n\r\n\r\n");
-//            }
-//            if(times%200==0)printf("请输入数据,以回车键结束\r\n");
-//            if(times%30==0)LED0=!LED0;//闪烁LED,提示系统正在运行.
-//            delay_ms(10);
-//        }
-//    }
+    while(1)
+    {
+
+        if(USART_RX_STA&0x8000)
+        {
+            len=USART_RX_STA&0x3fff;//得到此次接收到的数据长度
+            printf("\r\n您发送的消息为:\r\n");
+            HAL_UART_Transmit(&UART1_Handler,(uint8_t*)USART_RX_BUF,len,1000);	//发送接收到的数据
+            while(__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_TC)!=SET);		//等待发送结束
+            printf("\r\n\r\n");//插入换行
+            USART_RX_STA=0;
+        }else
+        {
+            times++;
+            if(times%5000==0)
+            {
+                printf("\r\nALIENTEK 精英STM32开发板 串口实验\r\n");
+                printf("正点原子@ALIENTEK\r\n\r\n\r\n");
+            }
+            if(times%200==0)
+                printf("请输入数据,以回车键结束\r\n");
+            if(times%30==0)
+                HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);//闪烁LED,提示系统正在运行.
+            delay_ms(20);
+        }
+    }
   while (1)
   {
 //    /* USER CODE END WHILE */
