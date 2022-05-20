@@ -48,9 +48,13 @@ int main(void) {
 
     /* Infinite loop */
     while (1) {
-        The_comcupter_comunicate();
         use_6050();
-        danger_reply();
+        if (R_of_circle)
+        {
+            The_comcupter_comunicate();
+            Lcd_num();
+            danger_reply();
+        }
     }
 
 }

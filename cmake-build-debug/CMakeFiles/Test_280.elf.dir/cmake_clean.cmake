@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"

@@ -23,11 +23,12 @@ void use_6050();
 
 
 void danger_reply();
-
-
-
+void Lcd_num();
 
 ///与上位机交流的代码
 void The_comcupter_comunicate();
+
+extern float R_of_circle;
+
 
 #endif //TEST_280_MY_WORK_H

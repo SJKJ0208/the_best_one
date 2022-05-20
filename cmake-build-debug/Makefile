@@ -128,6 +128,30 @@ Test_280.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/build
 .PHONY : Test_280.elf/fast
 
+Core/Inc/KEY/key_my.obj: Core/Inc/KEY/key_my.c.obj
+.PHONY : Core/Inc/KEY/key_my.obj
+
+# target to build an object file
+Core/Inc/KEY/key_my.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj
+.PHONY : Core/Inc/KEY/key_my.c.obj
+
+Core/Inc/KEY/key_my.i: Core/Inc/KEY/key_my.c.i
+.PHONY : Core/Inc/KEY/key_my.i
+
+# target to preprocess a source file
+Core/Inc/KEY/key_my.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.i
+.PHONY : Core/Inc/KEY/key_my.c.i
+
+Core/Inc/KEY/key_my.s: Core/Inc/KEY/key_my.c.s
+.PHONY : Core/Inc/KEY/key_my.s
+
+# target to generate assembly for a file
+Core/Inc/KEY/key_my.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.s
+.PHONY : Core/Inc/KEY/key_my.c.s
+
 Core/Inc/LCD/lcd.obj: Core/Inc/LCD/lcd.c.obj
 .PHONY : Core/Inc/LCD/lcd.obj
 
@@ -889,6 +913,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... Test_280.elf
+	@echo ... Core/Inc/KEY/key_my.obj
+	@echo ... Core/Inc/KEY/key_my.i
+	@echo ... Core/Inc/KEY/key_my.s
 	@echo ... Core/Inc/LCD/lcd.obj
 	@echo ... Core/Inc/LCD/lcd.i
 	@echo ... Core/Inc/LCD/lcd.s

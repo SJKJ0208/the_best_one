@@ -65,9 +65,22 @@ include CMakeFiles/Test_280.elf.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/Test_280.elf.dir/flags.make
 
+CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
+CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj: ../Core/Inc/KEY/key_my.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\KEY\key_my.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\KEY\key_my.c
+
+CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\o.o\Desktop\Test_280\Core\Inc\KEY\key_my.c > CMakeFiles\Test_280.elf.dir\Core\Inc\KEY\key_my.c.i
+
+CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\o.o\Desktop\Test_280\Core\Inc\KEY\key_my.c -o CMakeFiles\Test_280.elf.dir\Core\Inc\KEY\key_my.c.s
+
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj: ../Core/Inc/LCD/lcd.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\LCD\lcd.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\LCD\lcd.c
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.i: cmake_force
@@ -80,7 +93,7 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj: ../Core/Inc/LCD/lcd_init.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\LCD\lcd_init.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\LCD\lcd_init.c
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.i: cmake_force
@@ -93,7 +106,7 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj: ../Core/Inc/LED/led.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\LED\led.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\LED\led.c
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.i: cmake_force
@@ -106,7 +119,7 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj: ../Core/Inc/my_work/my_work.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\my_work\my_work.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\my_work\my_work.c
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.i: cmake_force
@@ -119,7 +132,7 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj: ../Core/Inc/test_os/test_os.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\test_os\test_os.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\test_os\test_os.c
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.i: cmake_force
@@ -132,7 +145,7 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj: ../Core/SYSTEM/delay/delay.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\SYSTEM\delay\delay.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\SYSTEM\delay\delay.c
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.i: cmake_force
@@ -145,7 +158,7 @@ CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj: ../Core/SYSTEM/sys/sys.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\SYSTEM\sys\sys.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\SYSTEM\sys\sys.c
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.i: cmake_force
@@ -158,7 +171,7 @@ CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj: ../Core/SYSTEM/usart/usart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\SYSTEM\usart\usart.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\SYSTEM\usart\usart.c
 
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.i: cmake_force
@@ -171,7 +184,7 @@ CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj: ../Core/Src/gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\gpio.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\gpio.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.i: cmake_force
@@ -184,7 +197,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: ../Core/Src/main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\main.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\main.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.i: cmake_force
@@ -197,7 +210,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/main.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj: ../Core/Src/spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\spi.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\spi.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.i: cmake_force
@@ -210,7 +223,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj: ../Core/Src/stm32f1xx_hal_msp.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\stm32f1xx_hal_msp.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\stm32f1xx_hal_msp.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.i: cmake_force
@@ -223,7 +236,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj: ../Core/Src/stm32f1xx_it.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\stm32f1xx_it.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\stm32f1xx_it.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.i: cmake_force
@@ -236,7 +249,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj: ../Core/Src/syscalls.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\syscalls.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\syscalls.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.i: cmake_force
@@ -249,7 +262,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj: ../Core/Src/system_stm32f1xx.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Src\system_stm32f1xx.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Src\system_stm32f1xx.c
 
 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.i: cmake_force
@@ -262,7 +275,7 @@ CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj: ../Core/retarget.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\retarget.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\retarget.c
 
 CMakeFiles/Test_280.elf.dir/Core/retarget.c.i: cmake_force
@@ -275,7 +288,7 @@ CMakeFiles/Test_280.elf.dir/Core/retarget.c.s: cmake_force
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.i: cmake_force
@@ -288,7 +301,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.s: 
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.i: cmake_force
@@ -301,7 +314,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_corte
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.i: cmake_force
@@ -314,7 +327,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c.i: cmake_force
@@ -327,7 +340,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c.i: cmake_force
@@ -340,7 +353,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c.i: cmake_force
@@ -353,7 +366,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.i: cmake_force
@@ -366,7 +379,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c.i: cmake_force
@@ -379,7 +392,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c.i: cmake_force
@@ -392,7 +405,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.i: cmake_force
@@ -405,7 +418,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c.i: cmake_force
@@ -418,7 +431,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_e
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.i: cmake_force
@@ -431,7 +444,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c.i: cmake_force
@@ -444,7 +457,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c.i: cmake_force
@@ -457,7 +470,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_e
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c.obj -c C:\Users\o.o\Desktop\Test_280\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c
 
 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.i: cmake_force
@@ -470,7 +483,7 @@ CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.
 
 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj: ../startup/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building ASM object CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building ASM object CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\Test_280.elf.dir\startup\startup_stm32f103xb.s.obj -c C:\Users\o.o\Desktop\Test_280\startup\startup_stm32f103xb.s
 
 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.i: cmake_force
@@ -483,6 +496,7 @@ CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.s: cmake_force
 
 # Object files for target Test_280.elf
 Test_280_elf_OBJECTS = \
+"CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj" \
@@ -519,6 +533,7 @@ Test_280_elf_OBJECTS = \
 # External object files for target Test_280.elf
 Test_280_elf_EXTERNAL_OBJECTS =
 
+Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
@@ -553,7 +568,7 @@ Test_280.elf: CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32
 Test_280.elf: CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/build.make
 Test_280.elf: CMakeFiles/Test_280.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable Test_280.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-release\CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable Test_280.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\Test_280.elf.dir\link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/o.o/Desktop/Test_280/cmake-build-release/Test_280.hex"
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Building C:/Users/o.o/Desktop/Test_280/cmake-build-release/Test_280.bin"

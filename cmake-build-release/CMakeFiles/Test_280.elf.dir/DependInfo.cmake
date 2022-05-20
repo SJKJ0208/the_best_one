@@ -33,6 +33,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "../Drivers/CMSIS/Include"
   )
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/key_my.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/KEY/key_my.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd_init.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LED/led.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
