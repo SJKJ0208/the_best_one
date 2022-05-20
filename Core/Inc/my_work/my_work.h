@@ -19,6 +19,11 @@ void test_lcd();
 void test_command_open();
 ///test_6050
 void test_6050();
+void use_6050();
+
+
+void danger_reply();
+
 
 
 

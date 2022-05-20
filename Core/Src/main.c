@@ -49,7 +49,8 @@ int main(void) {
     /* Infinite loop */
     while (1) {
         The_comcupter_comunicate();
-        test_6050();
+        use_6050();
+        danger_reply();
     }
 
 }

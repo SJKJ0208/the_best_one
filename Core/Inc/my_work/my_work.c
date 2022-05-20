@@ -28,6 +28,11 @@ uint32_t state_sys = 0;
 uint8_t  len;
 uint16_t  times=0;
 
+///用于存初始化后第一次的初始姿态
+uint8_t the_flag_of_first = 1;
+int16_t rpy_fi[3]={0},Acc_fi[3]={0},Gyr_fi[3]={0},Mag_fi[3]={0},Q_fi[4]={0},Temp_fi=0,Altitude_fi=0;
+
+
 ///6050循环里面用到的
 uint8_t data_buf[50]={0},count=0;
 int16_t ROLL=0,PITCH=0,YAW=0;
@@ -85,6 +90,104 @@ void test_command_open()
     delay_ms(300);
 
 }
+void the_first_get()
+{
+    the_flag_of_first = 0;
+    for (int i = 0; i < 3; ++i) {
+        rpy_fi[i] = rpy[i];
+        Acc_fi[i] = Acc[i];
+        Gyr_fi[i] = Gyr[i];
+        Mag_fi[i] = Mag_fi[i];
+        Q_fi[i] = Q[i];
+    }
+    Q_fi[4] =  Q[4];
+    Temp_fi = Temp;
+    Altitude_fi = Altitude;
+}
+///多种危险预报 电量不足无法上行的情况下会缓慢倒溜。下坡时建议降低车速缓慢行驶
+///1  :上坡超过15度就显示文字提示   8度-20度之间
+///2  :下坡超过25度就显示文字提示   容易前倾和刹车失灵
+///3  :检测电量，低于30，则提示注意上坡安全，容易动力不足
+///4  :行程过远，一般用电量或者实际里程数作为标准
+///5  :轮椅有左右倾倒的风险
+///6  :轮椅可能已经倾倒
+uint8_t test_danger()
+{
+    ///坡度预警
+    ///前倾是左右那一栏
+    ///理想状态下 是 -90(右倾-更大，左倾-更小) 0(前倾为-，上仰为+) 第三位是转向，不用管
+    if (abs((int) rpy[0]/100) > (90+15) && abs((int) rpy[0]/100) < (90+70))
+    {
+        return 5;
+    }
+    if (abs((int) rpy[0]/100) > (90+70) || )
+    {
+        return 6;
+    }
+}
+
+void danger_reply()
+{
+    switch (test_danger()) {
+        case 5:
+            printf("轮椅有倾倒的风险");
+            break;
+        case 6:
+            printf("轮椅可能已经发生危险");
+            break;
+    }
+}
+void use_6050()
+{
+    if(!stata_6050)
+        return;
+    stata_6050=0;
+    if(CHeck(data_buf))
+    {
+        count=0;
+        if(data_buf[2]&0x01) //ACC
+        {
+            Acc[0]=(data_buf[4]<<8)|data_buf[5];
+            Acc[1]=(data_buf[6]<<8)|data_buf[7];
+            Acc[2]=(data_buf[8]<<8)|data_buf[9];
+            count=6;
+        }
+        if(data_buf[2]&0x02) //GYRO
+        {
+            Gyr[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+            Gyr[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+            Gyr[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+            count+=6;
+        }
+        if(data_buf[2]&0x04) //MAG
+        {
+            Mag[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+            Mag[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+            Mag[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+            count+=6;
+        }
+
+        if(data_buf[2]&0x10) //欧拉角
+        {
+            rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
+            rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
+            rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
+            printf("左右: %.2f,前后: %.2f ,上下:%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
+            count+=6;
+        }
+
+        if(data_buf[2]&0x40) //温度
+        {
+            Temp=(data_buf[4+count]<<8)|data_buf[5+count];
+            printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
+            count+=2;
+        }
+        if (the_flag_of_first <= 5)
+            the_flag_of_first++;
+        if (the_flag_of_first == 4)
+            the_first_get();
+    }
+}
 ///test6050单元
 void test_6050()
 {
@@ -121,45 +224,18 @@ void test_6050()
             rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
             rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
             rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-
-            HAL_Delay(20);
-            if((abs((float) rpy[0]/100)>50)||(abs((float) rpy[1]/100)>50))
-            {
-                printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-                is_error = 1;
-            }
-            else{
-                is_error = 0;
-                printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-            }
+            printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
             count+=6;
-            if((abs((float) rpy[0]/100)>10))
-            {
-                if (((float) rpy[0]/100) <0)
-                {
-
-                    ///ST7789_WriteString(ST7789_WIDTH/2+38, ST7789_HEIGHT/2-75, "UP", Font_16x26, BLACK, WHITE);
-                }
-                else {
-                    ///ST7789_WriteString(ST7789_WIDTH / 2 + 38, ST7789_HEIGHT / 2 - 75, "DOWN", Font_16x26, BLACK,WHITE);
-                }
-            }
         }
+
         if(data_buf[2]&0x40) //温度
         {
             Temp=(data_buf[4+count]<<8)|data_buf[5+count];
             printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
-            if ((float) Temp/100 > 34 && is_error == 0)
-            {
-                /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "HIGHT", Font_16x26, BLACK, WHITE);
-            }
-            else if ((float) Temp/100 <= 34 && is_error == 0)
-            {
-                /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "NOR", Font_16x26, BLACK, WHITE);
-
-            }
             count+=2;
         }
+
+
     }
 }
 
