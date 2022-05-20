@@ -18,9 +18,14 @@
 #define LED_G PAout(2)   	//LED1
 #define LED_B PAout(3)   	//LED1
 
+#define BEEP PBout(6)   //BEEP
+
 ///此处根据硬件需求进行改动
 #define DOWN_LED 1
 #define   UP_LED 0
+
+#define BEEP_UP 1
+#define BEEP_DOWN 0
 
 void LED_Init(void);
 #endif

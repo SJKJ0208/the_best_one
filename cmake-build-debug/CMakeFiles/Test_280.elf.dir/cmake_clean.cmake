@@ -2,7 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
-  "CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj"
+  "CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"
   "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj"

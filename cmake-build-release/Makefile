@@ -200,29 +200,29 @@ Core/Inc/LED/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s
 .PHONY : Core/Inc/LED/led.c.s
 
-Core/Inc/st7789/fonts.obj: Core/Inc/st7789/fonts.c.obj
-.PHONY : Core/Inc/st7789/fonts.obj
+Core/Inc/my_work/my_work.obj: Core/Inc/my_work/my_work.c.obj
+.PHONY : Core/Inc/my_work/my_work.obj
 
 # target to build an object file
-Core/Inc/st7789/fonts.c.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj
-.PHONY : Core/Inc/st7789/fonts.c.obj
+Core/Inc/my_work/my_work.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj
+.PHONY : Core/Inc/my_work/my_work.c.obj
 
-Core/Inc/st7789/fonts.i: Core/Inc/st7789/fonts.c.i
-.PHONY : Core/Inc/st7789/fonts.i
+Core/Inc/my_work/my_work.i: Core/Inc/my_work/my_work.c.i
+.PHONY : Core/Inc/my_work/my_work.i
 
 # target to preprocess a source file
-Core/Inc/st7789/fonts.c.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.i
-.PHONY : Core/Inc/st7789/fonts.c.i
+Core/Inc/my_work/my_work.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.i
+.PHONY : Core/Inc/my_work/my_work.c.i
 
-Core/Inc/st7789/fonts.s: Core/Inc/st7789/fonts.c.s
-.PHONY : Core/Inc/st7789/fonts.s
+Core/Inc/my_work/my_work.s: Core/Inc/my_work/my_work.c.s
+.PHONY : Core/Inc/my_work/my_work.s
 
 # target to generate assembly for a file
-Core/Inc/st7789/fonts.c.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.s
-.PHONY : Core/Inc/st7789/fonts.c.s
+Core/Inc/my_work/my_work.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.s
+.PHONY : Core/Inc/my_work/my_work.c.s
 
 Core/Inc/test_os/test_os.obj: Core/Inc/test_os/test_os.c.obj
 .PHONY : Core/Inc/test_os/test_os.obj
@@ -898,9 +898,9 @@ help:
 	@echo ... Core/Inc/LED/led.obj
 	@echo ... Core/Inc/LED/led.i
 	@echo ... Core/Inc/LED/led.s
-	@echo ... Core/Inc/st7789/fonts.obj
-	@echo ... Core/Inc/st7789/fonts.i
-	@echo ... Core/Inc/st7789/fonts.s
+	@echo ... Core/Inc/my_work/my_work.obj
+	@echo ... Core/Inc/my_work/my_work.i
+	@echo ... Core/Inc/my_work/my_work.s
 	@echo ... Core/Inc/test_os/test_os.obj
 	@echo ... Core/Inc/test_os/test_os.i
 	@echo ... Core/Inc/test_os/test_os.s

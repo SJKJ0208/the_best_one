@@ -110,9 +110,50 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj: \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Inc/LED/led.c \
  ../Core/Inc/LED/led.h
-CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj: \
- ../Core/Inc/st7789/fonts.c \
- ../Core/Inc/st7789/fonts.h
+CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj: \
+ ../Core/Inc/LCD/lcd.h \
+ ../Core/Inc/LCD/lcd_init.h \
+ ../Core/Inc/LCD/pic.h \
+ ../Core/Inc/LED/led.h \
+ ../Core/Inc/main.h \
+ ../Core/Inc/retarget.h \
+ ../Core/Inc/spi.h \
+ ../Core/Inc/stm32f1xx_hal_conf.h \
+ ../Core/Inc/test_os/test_os.h \
+ ../Core/SYSTEM/delay/delay.h \
+ ../Core/SYSTEM/sys/sys.h \
+ ../Core/SYSTEM/usart/usart.h \
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h \
+ ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h \
+ ../Drivers/CMSIS/Include/cmsis_armcc.h \
+ ../Drivers/CMSIS/Include/cmsis_armclang.h \
+ ../Drivers/CMSIS/Include/cmsis_compiler.h \
+ ../Drivers/CMSIS/Include/cmsis_gcc.h \
+ ../Drivers/CMSIS/Include/cmsis_iccarm.h \
+ ../Drivers/CMSIS/Include/cmsis_version.h \
+ ../Drivers/CMSIS/Include/core_cm3.h \
+ ../Drivers/CMSIS/Include/mpu_armv7.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_spi.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_tim_ex.h \
+ ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
+ ../Core/Inc/my_work/my_work.c \
+ ../Core/Inc/my_work/my_work.h
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj: \
  ../Core/Inc/test_os/test_os.c
 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj: \
@@ -255,10 +296,10 @@ CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj: \
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: \
  ../Core/Inc/LCD/lcd.h \
  ../Core/Inc/LCD/lcd_init.h \
- ../Core/Inc/LCD/pic.h \
  ../Core/Inc/LED/led.h \
  ../Core/Inc/gpio.h \
  ../Core/Inc/main.h \
+ ../Core/Inc/my_work/my_work.h \
  ../Core/Inc/retarget.h \
  ../Core/Inc/spi.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \

@@ -104,18 +104,18 @@ CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\o.o\Desktop\Test_280\Core\Inc\LED\led.c -o CMakeFiles\Test_280.elf.dir\Core\Inc\LED\led.c.s
 
-CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
-CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj: ../Core/Inc/st7789/fonts.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\st7789\fonts.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\st7789\fonts.c
+CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
+CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj: ../Core/Inc/my_work/my_work.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\o.o\Desktop\Test_280\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\Test_280.elf.dir\Core\Inc\my_work\my_work.c.obj -c C:\Users\o.o\Desktop\Test_280\Core\Inc\my_work\my_work.c
 
-CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\o.o\Desktop\Test_280\Core\Inc\st7789\fonts.c > CMakeFiles\Test_280.elf.dir\Core\Inc\st7789\fonts.c.i
+CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.i"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\o.o\Desktop\Test_280\Core\Inc\my_work\my_work.c > CMakeFiles\Test_280.elf.dir\Core\Inc\my_work\my_work.c.i
 
-CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\o.o\Desktop\Test_280\Core\Inc\st7789\fonts.c -o CMakeFiles\Test_280.elf.dir\Core\Inc\st7789\fonts.c.s
+CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.s"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\o.o\Desktop\Test_280\Core\Inc\my_work\my_work.c -o CMakeFiles\Test_280.elf.dir\Core\Inc\my_work\my_work.c.s
 
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj: CMakeFiles/Test_280.elf.dir/flags.make
 CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj: ../Core/Inc/test_os/test_os.c
@@ -486,7 +486,7 @@ Test_280_elf_OBJECTS = \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj" \
-"CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj" \
+"CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj" \
 "CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj" \
@@ -522,7 +522,7 @@ Test_280_elf_EXTERNAL_OBJECTS =
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
-Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/st7789/fonts.c.obj
+Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
 Test_280.elf: CMakeFiles/Test_280.elf.dir/Core/SYSTEM/sys/sys.c.obj

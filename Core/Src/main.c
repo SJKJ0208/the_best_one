@@ -22,267 +22,38 @@
 #include "spi.h"
 #include "gpio.h"
 /* Private includes ----------------------------------------------------------*/
-/* USER CODE BEGIN Includes */
-#include "stdlib.h"
-#include "test_os/test_os.h"
-#include "retarget.h"
-#include "stdio.h"
-#include "math.h"
-#include "delay.h"
-#include "sys.h"
-#include "usart.h"
-#include "led.h"
-#include "lcd.h"
-#include "lcd_init.h"
-#include "pic.h"
-
-/* USER CODE END Includes */
+#include "my_work/my_work.h"
 
 /* Private typedef -----------------------------------------------------------*/
-/* USER CODE BEGIN PTD */
-void send_Instruction(void)
-{
-    uint8_t send_data[4]={0};
-    send_data[0]=0xa5;
-    send_data[1]=0x55;
-    send_data[2]=0x50;
-    send_data[3]=0x4a;
-    USART_Send_bytes(send_data,4);//发送温度/欧拉角输出指令
-
-    HAL_Delay(200);
-
-    send_data[0]=0xa5;
-    send_data[1]=0x56;
-    send_data[2]=0x02;
-    send_data[3]=0xfd;
-    USART_Send_bytes(send_data,4);//发送自动输出指令
-    HAL_Delay(200);
-}
-
-/* USER CODE END PTD */
-
-/* Private define ------------------------------------------------------------*/
-/* USER CODE BEGIN PD */
-/* USER CODE END PD */
-
-/* Private macro -------------------------------------------------------------*/
-/* USER CODE BEGIN PM */
-
-/* USER CODE END PM */
-
-/* Private variables ---------------------------------------------------------*/
-
-/* USER CODE BEGIN PV */
-
-/* USER CODE END PV */
-
-/* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-/* USER CODE BEGIN PFP */
-
-/* USER CODE END PFP */
-
-/* Private user code ---------------------------------------------------------*/
-/* USER CODE BEGIN 0 */
-
-float pressure, temperature, humidity;
-
-uint16_t size;
-uint8_t Data[256];
-uint8_t is_error = 0;
-uint32_t re_draw = 1;
-uint32_t pose = 0;
-uint32_t state_sys = 0;
-/* USER CODE END 0 */
 
 /**
   * @brief  The application entry point.
   * @retval int
   */
+
 int main(void)
 {
-  /* USER CODE BEGIN 1 */
-    uint8_t  len;
-    uint16_t  times=0;
-    uint8_t data_buf[50]={0},count=0;
-    int16_t ROLL=0,PITCH=0,YAW=0;
-    int16_t rpy[3]={0},Acc[3]={0},Gyr[3]={0},Mag[3]={0},Q[4]={0},Temp=0,Altitude=0;
-    uint32_t pressure=0;
-
-  /* USER CODE END 1 */
-
   /* MCU Configuration--------------------------------------------------------*/
-
   /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  ///初始化区域///
   HAL_Init();
-
-  /* USER CODE BEGIN Init */
-
-  /* USER CODE END Init */
-
   /* Configure the system clock */
   SystemClock_Config();
+  The_sum_init();
+  ///初始化区域///
 
-  /* USER CODE BEGIN SysInit */
+  ///测试区域///
+    test_command_open();
 
-  /* USER CODE END SysInit */
-
-  /* Initialize all configured peripherals */
-  delay_init(64);
-  //MX_GPIO_Init();
-
-
-  MX_SPI1_Init();
- // uart_init_2(115200);
-  uart_init_1(115200);
-  /* USER CODE BEGIN 2 */
-  ///自锁
-  RetargetInit(&UART1_Handler);
-    LED_Init();//LED初始化
-    LCD_Init();//LCD初始化
-    u8 i,j;
-    float t=0;
-    LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
-    LED_R=0;
-
-    LCD_ShowChinese(50,0,"广东工业大学",RED,WHITE,16,0);
-    LCD_ShowString(0,40,"LCD_W:",RED,WHITE,16,0);
-    LCD_ShowIntNum(48,40,LCD_W,3,RED,WHITE,16);
-    LCD_ShowString(80,40,"LCD_H:",RED,WHITE,16,0);
-    LCD_ShowIntNum(128,40,LCD_H,3,RED,WHITE,16);
-    LCD_ShowString(80,40,"LCD_H:",RED,WHITE,16,0);
-    LCD_ShowString(0,70,"Increaseing Nun:",RED,WHITE,16,0);
-    LCD_ShowFloatNum1(128,70,t,4,RED,WHITE,16);
-  /* USER CODE END 2 */
-
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+    /* Infinite loop */
     while(1)
     {
-        t+=0.11;
-        for(j=0;j<3;j++)
-        {
-            for(i=0;i<6;i++)
-            {
-                LCD_ShowPicture(40*i,120+j*40,40,40,gImage_1);
-            }
-        }
-//
-//        if(USART_RX_STA&0x8000)
-//        {
-//            len=USART_RX_STA&0x3fff;//得到此次接收到的数据长度
-//            printf("\r\n您发送的消息为:\r\n");
-//            HAL_UART_Transmit(&UART1_Handler,(uint8_t*)USART_RX_BUF,len,1000);	//发送接收到的数据
-//            while(__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_TC)!=SET);		//等待发送结束
-//            printf("\r\n\r\n");//插入换行
-//            USART_RX_STA=0;
-//        }else
-//        {
-//            times++;
-//            if(times%5000==0)
-//            {
-//                printf("\r\nALIENTEK 精英STM32开发板 串口实验\r\n");
-//                printf("正点原子@ALIENTEK\r\n\r\n\r\n");
-//            }
-//            if(times%200==0)
-//                printf("请输入数据,以回车键结束\r\n");
-//            if(times%30==0)
-//                HAL_GPIO_TogglePin(GPIOA,GPIO_PIN_1);//闪烁LED,提示系统正在运行.
-//            delay_ms(20);
-//
-//        }
-            ///test the led
-            LED_B = 1;
-        delay_ms(300);
-        LED_B = 0;
-        delay_ms(300);
+        The_comcupter_comunicate();
 
     }
   while (1)
   {
-//    /* USER CODE END WHILE */
-//
-//    /* USER CODE BEGIN 3 */
-//      if (re_draw == 1 && is_error == 0)
-//      {
-//          re_draw = 0;
-//      }
-//      if(!stata)
-//          continue;
-//      stata=0;
-//      if(CHeck(data_buf))
-//      {
-//          count=0;
-//          if(data_buf[2]&0x01) //ACC
-//          {
-//              Acc[0]=(data_buf[4]<<8)|data_buf[5];
-//              Acc[1]=(data_buf[6]<<8)|data_buf[7];
-//              Acc[2]=(data_buf[8]<<8)|data_buf[9];
-//              count=6;
-//          }
-//          if(data_buf[2]&0x02) //GYRO
-//          {
-//              Gyr[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-//              Gyr[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-//              Gyr[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-//              count+=6;
-//          }
-//          if(data_buf[2]&0x04) //MAG
-//          {
-//              Mag[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-//              Mag[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-//              Mag[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-//              count+=6;
-//          }
-//
-//          if(data_buf[2]&0x10) //欧拉角
-//          {
-//              rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
-//              rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
-//              rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-//
-//              HAL_Delay(20);
-//              if((abs((float) rpy[0]/100)>50)||(abs((float) rpy[1]/100)>50))
-//              {
-//                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-//                  is_error = 1;
-//              }
-//              else{
-//                  is_error = 0;
-//                  printf("RPY: %.2f,%.2f ,%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
-//              }
-//              count+=6;
-//              if((abs((float) rpy[0]/100)>10))
-//              {
-//                  if (((float) rpy[0]/100) <0)
-//                  {
-//
-//                      ///ST7789_WriteString(ST7789_WIDTH/2+38, ST7789_HEIGHT/2-75, "UP", Font_16x26, BLACK, WHITE);
-//                  }
-//                  else {
-//                      ///ST7789_WriteString(ST7789_WIDTH / 2 + 38, ST7789_HEIGHT / 2 - 75, "DOWN", Font_16x26, BLACK,WHITE);
-//                  }
-//              }
-//          }
-//          if(data_buf[2]&0x40) //温度
-//          {
-//              Temp=(data_buf[4+count]<<8)|data_buf[5+count];
-//              printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
-//              if ((float) Temp/100 > 34 && is_error == 0)
-//              {
-//                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "HIGHT", Font_16x26, BLACK, WHITE);
-//              }
-//              else if ((float) Temp/100 <= 34 && is_error == 0)
-//              {
-//                 /// ST7789_WriteString(ST7789_WIDTH/2-90, ST7789_HEIGHT/2-75, "NOR", Font_16x26, BLACK, WHITE);
-//
-//              }
-//              count+=2;
-//          }
-//      }
-//      //warinning_task();
-        }
-  /* USER CODE END 3 */
 }
 
 /**
@@ -322,8 +93,6 @@ void SystemClock_Config(void)
     Error_Handler();
   }
 }
-
-/* USER CODE BEGIN 4 */
 //void warinning_task()
 //{
 //    if (is_error!= 0)
@@ -344,7 +113,6 @@ void SystemClock_Config(void)
 //        HAL_GPIO_WritePin(BEEP_GPIO_Port,BEEP_Pin,GPIO_PIN_RESET);
 //    }
 //}
-/* USER CODE END 4 */
 
 /**
   * @brief  This function is executed in case of error occurrence.
@@ -352,13 +120,14 @@ void SystemClock_Config(void)
   */
 void Error_Handler(void)
 {
-  /* USER CODE BEGIN Error_Handler_Debug */
+    printf("进入了错误中断");
   /* User can add his own implementation to report the HAL error return state */
   __disable_irq();
   while (1)
   {
+      printf("进入了错误中断");
+      LED_R != LED_R;
   }
-  /* USER CODE END Error_Handler_Debug */
 }
 
 #ifdef  USE_FULL_ASSERT
