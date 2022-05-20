@@ -145,7 +145,7 @@ int main(void)
     LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
     LED_R=0;
 
-    LCD_ShowChinese(0,0,"中景园电子",RED,WHITE,32,0);
+    LCD_ShowChinese(50,0,"广东工业大学",RED,WHITE,16,0);
     LCD_ShowString(0,40,"LCD_W:",RED,WHITE,16,0);
     LCD_ShowIntNum(48,40,LCD_W,3,RED,WHITE,16);
     LCD_ShowString(80,40,"LCD_H:",RED,WHITE,16,0);

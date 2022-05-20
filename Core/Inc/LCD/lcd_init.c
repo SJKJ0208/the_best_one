@@ -34,7 +34,7 @@ void LCD_Writ_Bus(u8 dat)
 	u8 i;
 	LCD_CS_Clr();
 	for(i=0;i<8;i++)
-	{			  
+	{
 		LCD_SCLK_Clr();
 		if(dat&0x80)
 		{
