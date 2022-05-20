@@ -18,6 +18,7 @@
 #include "lcd.h"
 #include "lcd_init.h"
 #include "KEY/key_my.h"
+#include "cJSON.h"
 
 uint16_t size;
 uint8_t Data[256];
@@ -31,6 +32,7 @@ uint16_t  times=0;
 ///状态量
 uint8_t speed = 12;
 float R_of_circle = 0;
+uint32_t round_by = 0;
 ///开机状态
 uint8_t open_or_not = 0;
 
@@ -64,6 +66,18 @@ void send_Instruction(void)
     USART_Send_bytes(send_data,4);//发送自动输出指令
     delay_ms(100);
 }
+///数据发送的格式制作
+void print_data(uint8_t *name,uint16_t data1)
+{
+    cJSON *one;
+    one = cJSON_CreateObject();
+    cJSON_AddItemToObject(one,name, cJSON_CreateNumber(data1));
+    char* data;//just a pointer
+    data  = cJSON_Print(one);
+    printf("%s",data);
+    cJSON_Delete(one);
+    free(data);
+}
 void The_main()
 {
     LCD_DrawLine(0,70,240,70,BLACK);
@@ -85,8 +99,37 @@ void Set_R_Of_Circle()
     LCD_ShowChinese(LCD_W/2-64-16,70/2+70-32/2,"轮子的直径",BLACK,WHITE,32,0);
     LCD_ShowString(LCD_W/2+50,70/2+140-32/2,"cm",BLACK,WHITE,32,0);
     LCD_ShowString(LCD_W/2+50-3*32,70/2+140-32/2,"000",BLACK,WHITE,32,0);
-    while(R_of_circle == 0);///等待用户设置,在中断处置位
-    ///留坑
+    while(R_of_circle == 0)///等待用户设置,在中断处置位
+    {
+        static uint8_t num = 0;
+        switch (KEY_Scan(0)) {
+            case 1:
+                num++;
+                break;
+            case 2:
+                if (num >= 1)
+                    num--;
+                break;
+            default:
+                break;
+        }
+        if (KEY_Scan_enter(0))
+        {
+            R_of_circle = num;
+            break;
+        }
+        if (num!=0)
+        {
+            LCD_ShowString(LCD_W/2+50-3*32,70/2+140-32/2,"000",WHITE,WHITE,32,0);
+            if (num <10)
+                LCD_ShowIntNum(LCD_W/2+50-1*32,70/2+140-32/2,num,1,BLACK,WHITE,32);
+            else if (num >=10 && num <100)
+                LCD_ShowIntNum(LCD_W/2+50-1*32,70/2+140-32/2,num,2,BLACK,WHITE,32);
+            else if (num >=100)
+                LCD_ShowIntNum(LCD_W/2+50-1*32,70/2+140-32/2,num,3,BLACK,WHITE,32);
+        }
+    }
+
     LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
 }
 
@@ -124,45 +167,6 @@ void The_sum_init()
     if (R_of_circle)
         The_main();
 }
-void Lcd_num()
-{
-    static times_update = 0;
-    if (times_update == 1000)
-        times_update = 0;
-    if (times_update % 10 == 0)
-    {
-        //update_data
-        ///温度
-        LCD_ShowIntNum(20+32+32+32,70/2-32/2,(int)Temp,2,RED,WHITE,32);
-        ///速度
-        LCD_ShowIntNum(20+32+32+32,70/2+70-32/2,speed,2,RED,WHITE,32);
-    }
-}
-
-
-///用于测试单元模块
-void test_command_open()
-{
-    LCD_ShowPicture((LCD_W/2)-(180/2),(LCD_H/2)-(174/2)-15,180,174,gImage_180_174);
-    delay_ms(500);
-    LCD_ShowChinese((LCD_W/2)-(3*32),(LCD_H/2)+(174/2),"广东工业大学",RED,WHITE,32,0);
-    delay_ms(500);
-    LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
-}
-void the_first_get()
-{
-    the_flag_of_first = 0;
-    for (int i = 0; i < 3; ++i) {
-        rpy_fi[i] = rpy[i];
-        Acc_fi[i] = Acc[i];
-        Gyr_fi[i] = Gyr[i];
-        Mag_fi[i] = Mag_fi[i];
-        Q_fi[i] = Q[i];
-    }
-    Q_fi[4] =  Q[4];
-    Temp_fi = Temp;
-    Altitude_fi = Altitude;
-}
 ///多种危险预报 电量不足无法上行的情况下会缓慢倒溜。下坡时建议降低车速缓慢行驶
 ///1  :上坡超过15度就显示文字提示   8度-20度之间***
 ///2  :下坡超过25度就显示文字提示   容易前倾和刹车失灵***
@@ -192,7 +196,52 @@ uint8_t test_danger()
     {
         return 6;
     }
+    return 0;
 }
+void Lcd_num()
+{
+    static uint32_t times_update = 0;
+    if (times_update == 1000)
+        times_update = 0;
+    if (times_update % 10 == 0)
+    {
+        //update_data
+        ///温度
+        LCD_ShowIntNum(20+32+32+32,70/2-32/2,(int)((float) Temp/100),2,RED,WHITE,32);
+        ///速度
+        LCD_ShowIntNum(20+32+32+32,70/2+70-32/2,speed,2,RED,WHITE,32);
+        if (test_danger() == 1||test_danger() == 2)
+        {
+            LCD_ShowIntNum(40+32,70/2+210-32/2,abs((int) rpy[1]/100),2,RED,WHITE,32);
+        }
+    }
+}
+
+
+///用于测试单元模块
+void test_command_open()
+{
+    LCD_ShowPicture((LCD_W/2)-(180/2),(LCD_H/2)-(174/2)-15,180,174,gImage_180_174);
+    delay_ms(500);
+    LCD_ShowChinese((LCD_W/2)-(3*32),(LCD_H/2)+(174/2),"广东工业大学",RED,WHITE,32,0);
+    delay_ms(500);
+    LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
+}
+void the_first_get()
+{
+    the_flag_of_first = 0;
+    for (int i = 0; i < 3; ++i) {
+        rpy_fi[i] = rpy[i];
+        Acc_fi[i] = Acc[i];
+        Gyr_fi[i] = Gyr[i];
+        Mag_fi[i] = Mag_fi[i];
+        Q_fi[i] = Q[i];
+    }
+    Q_fi[4] =  Q[4];
+    Temp_fi = Temp;
+    Altitude_fi = Altitude;
+}
+
 ///发生危险后，与外界的交流
 void danger_call()
 {
@@ -201,27 +250,50 @@ void danger_call()
 }
 void tip_lcd(int tip)
 {
-//    switch (tip) {
-//        case 5:
-//
-//    }
+    switch (tip) {
+        case 5:
+            LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"倾倒风险",RED,WHITE,32,0);
+            break;
+        case 6:
+            LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"发生危险",RED,WHITE,32,0);
+            break;
+        case 1:
+            LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"注意坡度",RED,WHITE,32,0);
+            LCD_ShowString(40,70/2+210-32/2,": ",RED,WHITE,32,0);
+            break;
+        case 2:
+            LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"注意坡度",RED,WHITE,32,0);
+            LCD_ShowString(40,70/2+210-32/2,": ",RED,WHITE,32,0);
+            break;
+    }
 }
 
 void danger_reply()
 {
+    if (test_danger())     ///消除广告
+    {
+        LCD_ShowChinese(40,70/2+210-32/2,"嘉怡是天队",WHITE,WHITE,32,0);
+        LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"一路平安",WHITE,WHITE,32,0);
+    }
+    else
+        LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"一路平安",GREEN,WHITE,32,0);
+    tip_lcd(test_danger());
     switch (test_danger()) {
         case 5:
-            printf("轮椅有倾倒的风险");
-            ///lcd同步显示
+            //printf("轮椅有倾倒的风险");
+            print_data("d",5);
             break;
         case 6:
-            printf("轮椅可能已经发生危险");
+            //printf("轮椅可能已经发生危险");
+            print_data("d",6);
             break;
         case 1:
-            printf("请注意上坡坡度");
+            //printf("请注意上坡坡度");
+            print_data("d",1);
             break;
         case 2:
-            printf("请注意下坡坡度");
+            //printf("请注意下坡坡度");
+            print_data("d",2);
     }
 }
 void use_6050()
@@ -259,14 +331,14 @@ void use_6050()
             rpy[0]=(data_buf[4+count]<<8)|data_buf[5+count];
             rpy[1]=(data_buf[6+count]<<8)|data_buf[7+count];
             rpy[2]=(data_buf[8+count]<<8)|data_buf[9+count];
-            printf("左右: %.2f,前后: %.2f ,上下:%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
+            //printf("左右: %.2f,前后: %.2f ,上下:%.2f ",(float) rpy[0]/100,(float) rpy[1]/100,(float) rpy[2]/100);
             count+=6;
         }
 
         if(data_buf[2]&0x40) //温度
         {
             Temp=(data_buf[4+count]<<8)|data_buf[5+count];
-            printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
+            //printf(" ,Temp: %.2f ℃ \r\n",(float) Temp/100);
             count+=2;
         }
         if (the_flag_of_first <= 5)
@@ -331,7 +403,6 @@ void test_lcd()
 {
     LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
     ///闪烁代表运行
-    LED_R!=LED_R;
     LCD_ShowChinese(50,0,"广东工业大学",RED,WHITE,16,0);
     LCD_ShowString(0,40,"LCD_W:",RED,WHITE,16,0);
     LCD_ShowIntNum(48,40,LCD_W,3,RED,WHITE,16);
@@ -369,4 +440,6 @@ void The_comcupter_comunicate()
         delay_ms(20);
     }
 }
+
+
 

@@ -20,10 +20,6 @@ sys.h
 
 ../Core/Inc/LCD/pic.h
 
-../Core/Inc/LED/led.h
-sys.h
-../Core/Inc/LED/sys.h
-
 ../Core/Inc/main.h
 stm32f1xx_hal.h
 ../Core/Inc/stm32f1xx_hal.h
@@ -298,6 +294,8 @@ stm32f1xx_hal_def.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/cJSON.h
+
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.c
 my_work.h
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.h
@@ -331,12 +329,10 @@ lcd_init.h
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/lcd_init.h
 KEY/key_my.h
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/KEY/key_my.h
+cJSON.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/cJSON.h
 
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.h
 retarget.h
 C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/retarget.h
-led.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/led.h
-usart.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/usart.h
 

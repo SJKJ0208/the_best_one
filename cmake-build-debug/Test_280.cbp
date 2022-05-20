@@ -140,6 +140,12 @@
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/main.h">
 			<Option target="Test_280.elf"/>
 		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/cJSON.c">
+			<Option target="Test_280.elf"/>
+		</Unit>
+		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/cJSON.h">
+			<Option target="Test_280.elf"/>
+		</Unit>
 		<Unit filename="C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.c">
 			<Option target="Test_280.elf"/>
 		</Unit>

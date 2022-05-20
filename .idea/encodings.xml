@@ -3,6 +3,8 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Core/Inc/bmp280/usart.c" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Core/Inc/bmp280/usart.h" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Core/Inc/my_work/cJSON.c" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/Core/Inc/my_work/cJSON.h" charset="UTF-8" />
     <file url="PROJECT" charset="GBK" />
   </component>
 </project>

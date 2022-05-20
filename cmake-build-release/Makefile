@@ -224,6 +224,30 @@ Core/Inc/LED/led.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.s
 .PHONY : Core/Inc/LED/led.c.s
 
+Core/Inc/my_work/cJSON.obj: Core/Inc/my_work/cJSON.c.obj
+.PHONY : Core/Inc/my_work/cJSON.obj
+
+# target to build an object file
+Core/Inc/my_work/cJSON.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/cJSON.c.obj
+.PHONY : Core/Inc/my_work/cJSON.c.obj
+
+Core/Inc/my_work/cJSON.i: Core/Inc/my_work/cJSON.c.i
+.PHONY : Core/Inc/my_work/cJSON.i
+
+# target to preprocess a source file
+Core/Inc/my_work/cJSON.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/cJSON.c.i
+.PHONY : Core/Inc/my_work/cJSON.c.i
+
+Core/Inc/my_work/cJSON.s: Core/Inc/my_work/cJSON.c.s
+.PHONY : Core/Inc/my_work/cJSON.s
+
+# target to generate assembly for a file
+Core/Inc/my_work/cJSON.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Test_280.elf.dir\build.make CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/cJSON.c.s
+.PHONY : Core/Inc/my_work/cJSON.c.s
+
 Core/Inc/my_work/my_work.obj: Core/Inc/my_work/my_work.c.obj
 .PHONY : Core/Inc/my_work/my_work.obj
 
@@ -925,6 +949,9 @@ help:
 	@echo ... Core/Inc/LED/led.obj
 	@echo ... Core/Inc/LED/led.i
 	@echo ... Core/Inc/LED/led.s
+	@echo ... Core/Inc/my_work/cJSON.obj
+	@echo ... Core/Inc/my_work/cJSON.i
+	@echo ... Core/Inc/my_work/cJSON.s
 	@echo ... Core/Inc/my_work/my_work.obj
 	@echo ... Core/Inc/my_work/my_work.i
 	@echo ... Core/Inc/my_work/my_work.s

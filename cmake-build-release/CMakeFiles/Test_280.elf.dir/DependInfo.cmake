@@ -37,6 +37,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LCD/lcd_init.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/LED/led.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj"
+  "C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/cJSON.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/cJSON.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/my_work/my_work.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/Inc/test_os/test_os.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/Inc/test_os/test_os.c.obj"
   "C:/Users/o.o/Desktop/Test_280/Core/SYSTEM/delay/delay.c" "C:/Users/o.o/Desktop/Test_280/cmake-build-release/CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj"

@@ -131,7 +131,6 @@ void Error_Handler(void)
   while (1)
   {
       printf("进入了错误中断");
-      LED_R != LED_R;
   }
 }
 
