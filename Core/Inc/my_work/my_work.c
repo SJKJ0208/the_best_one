@@ -17,6 +17,7 @@
 #include "usart.h"
 #include "lcd.h"
 #include "lcd_init.h"
+#include "KEY/key_my.h"
 
 uint16_t size;
 uint8_t Data[256];
@@ -30,6 +31,8 @@ uint16_t  times=0;
 ///状态量
 uint8_t speed = 12;
 float R_of_circle = 0;
+///开机状态
+uint8_t open_or_not = 0;
 
 ///用于存初始化后第一次的初始姿态
 uint8_t the_flag_of_first = 1;
@@ -76,7 +79,7 @@ void The_main()
     LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"一路平安",BLACK,WHITE,32,0);
 }
 ///除系统初始化外的全部初始化集合  /* Initialize all configured peripherals */
-Set_R_Of_Circle()
+void Set_R_Of_Circle()
 {
     LCD_ShowChinese(20,70/2-32/2,"请输入",BLACK,WHITE,32,0);
     LCD_ShowChinese(LCD_W/2-64-16,70/2+70-32/2,"轮子的直径",BLACK,WHITE,32,0);
@@ -91,11 +94,25 @@ void The_sum_init()
 {
     delay_init(64);
     MX_SPI1_Init();
+    LCD_Init();//LCD初始化
+    LCD_BLK_Clr();
+    LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
+    KEY_Init();
+    ///开机设置
+    while(!open_or_not)
+    {
+        if (KEY_Scan_enter(1))
+        {
+            delay_ms(2000);
+            if (KEY_Scan_enter(1))
+                break;
+        }
+    }
+    LCD_BLK_Set();
     uart_init_1(115200);
     uart_init_2(115200);
     RetargetInit(&UART1_Handler);
     //LED_Init();//LED初始化会干扰串口2
-    LCD_Init();//LCD初始化
     ///6050初始化
     send_Instruction();
     ///先对屏幕白化

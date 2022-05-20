@@ -23,7 +23,7 @@
 #include "gpio.h"
 /* Private includes ----------------------------------------------------------*/
 #include "my_work/my_work.h"
-
+#include "KEY/key_my.h"
 /* Private typedef -----------------------------------------------------------*/
 void SystemClock_Config(void);
 
@@ -48,7 +48,9 @@ int main(void) {
 
     /* Infinite loop */
     while (1) {
+
         use_6050();
+        KEY_Scan(0);
         if (R_of_circle)
         {
             The_comcupter_comunicate();

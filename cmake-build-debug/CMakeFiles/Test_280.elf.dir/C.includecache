@@ -6,9 +6,39 @@
 
 #IncludeRegexTransform: 
 
+../Core/Inc/KEY/key_my.h
+sys.h
+../Core/Inc/KEY/sys.h
+
+../Core/Inc/LCD/lcd.h
+sys.h
+../Core/Inc/LCD/sys.h
+
+../Core/Inc/LCD/lcd_init.h
+sys.h
+../Core/Inc/LCD/sys.h
+
+../Core/Inc/LCD/pic.h
+
 ../Core/Inc/LED/led.h
 sys.h
 ../Core/Inc/LED/sys.h
+
+../Core/Inc/main.h
+stm32f1xx_hal.h
+../Core/Inc/stm32f1xx_hal.h
+
+../Core/Inc/retarget.h
+stm32f1xx_hal.h
+../Core/Inc/stm32f1xx_hal.h
+sys/stat.h
+-
+stdio.h
+-
+
+../Core/Inc/spi.h
+main.h
+../Core/Inc/main.h
 
 ../Core/Inc/stm32f1xx_hal_conf.h
 stm32f1xx_hal_rcc.h
@@ -78,6 +108,10 @@ stm32f1xx_hal_hcd.h
 stm32f1xx_hal_mmc.h
 ../Core/Inc/stm32f1xx_hal_mmc.h
 
+../Core/Inc/test_os/test_os.h
+main.h
+../Core/Inc/test_os/main.h
+
 ../Core/SYSTEM/delay/delay.h
 sys.h
 ../Core/SYSTEM/delay/sys.h
@@ -85,6 +119,14 @@ sys.h
 ../Core/SYSTEM/sys/sys.h
 stm32f1xx.h
 ../Core/SYSTEM/sys/stm32f1xx.h
+
+../Core/SYSTEM/usart/usart.h
+stdio.h
+../Core/SYSTEM/usart/stdio.h
+sys.h
+../Core/SYSTEM/usart/sys.h
+main.h
+../Core/SYSTEM/usart/main.h
 
 ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
 core_cm3.h
@@ -256,17 +298,45 @@ stm32f1xx_hal_def.h
 stm32f1xx_hal_def.h
 ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
 
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/key_my.c
-key_my.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/key_my.h
-exti.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/exti.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.c
+my_work.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.h
+pic.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/pic.h
+usart.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/usart.h
+main.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/main.h
+stm32f1xx_hal.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/stm32f1xx_hal.h
+spi.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/spi.h
+stdlib.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/stdlib.h
+test_os/test_os.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/test_os/test_os.h
+stdio.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/stdio.h
+math.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/math.h
 delay.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/delay.h
-led.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/led.h
-key.h
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/key.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/delay.h
+sys.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/sys.h
+usart.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/usart.h
+lcd.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/lcd.h
+lcd_init.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/lcd_init.h
+KEY/key_my.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/KEY/key_my.h
 
-C:/Users/o.o/Desktop/Test_280/Core/Inc/KEY/key_my.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/my_work.h
+retarget.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/retarget.h
+led.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/led.h
+usart.h
+C:/Users/o.o/Desktop/Test_280/Core/Inc/my_work/usart.h
 
