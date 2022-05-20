@@ -254,6 +254,8 @@ CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj: \
  ../Core/Src/gpio.c
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: \
  ../Core/Inc/LCD/lcd.h \
+ ../Core/Inc/LCD/lcd_init.h \
+ ../Core/Inc/LCD/pic.h \
  ../Core/Inc/LED/led.h \
  ../Core/Inc/gpio.h \
  ../Core/Inc/main.h \

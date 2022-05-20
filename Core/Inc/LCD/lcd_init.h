@@ -22,11 +22,11 @@ void GPIO_ResetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) ;
 void GPIO_SetBits(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin) ;
 
 
-#define LCD_SCLK_Clr() GPIO_ResetBits(GPIOA,I2C_CLK_TEM_Pin)//SCL=SCLK
-#define LCD_SCLK_Set() GPIO_SetBits(GPIOA,I2C_CLK_TEM_Pin)
+#define LCD_SCLK_Clr() GPIO_ResetBits(GPIOA,GPIO_PIN_5)//SCL=SCLK
+#define LCD_SCLK_Set() GPIO_SetBits(GPIOA,GPIO_PIN_5)
 
-#define LCD_MOSI_Clr() GPIO_ResetBits(GPIOA,I2C_SDA_TEM_Pin)//SDA=MOSI
-#define LCD_MOSI_Set() GPIO_SetBits(GPIOA,I2C_SDA_TEM_Pin)
+#define LCD_MOSI_Clr() GPIO_ResetBits(GPIOA,GPIO_PIN_7)//SDA=MOSI
+#define LCD_MOSI_Set() GPIO_SetBits(GPIOA,GPIO_PIN_7)
 
 #define LCD_RES_Clr()  GPIO_ResetBits(GPIOB,ST7789_RST_Pin)//RES
 #define LCD_RES_Set()  GPIO_SetBits(GPIOB,ST7789_RST_Pin)

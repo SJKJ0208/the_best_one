@@ -7,8 +7,9 @@ void LCD_GPIO_Init(void)
 {
     GPIO_InitTypeDef GPIO_Initure;
     __HAL_RCC_GPIOA_CLK_ENABLE();           	//开启GPIOA时钟
+    __HAL_RCC_GPIOB_CLK_ENABLE();
      ///依次为：SCL/SCLK SDA/MOSI RES DC CS BLK
-    GPIO_Initure.Pin = I2C_CLK_TEM_Pin|I2C_SDA_TEM_Pin|ST7789_DC_Pin;
+    GPIO_Initure.Pin = GPIO_PIN_5|GPIO_PIN_7|ST7789_DC_Pin;
  	GPIO_Initure.Mode = GPIO_PULLUP; 		 //推挽输出
 	GPIO_Initure.Speed = GPIO_SPEED_FREQ_HIGH;//速度高速
     HAL_GPIO_Init(GPIOA, &GPIO_Initure);	  //初始化GPIOA
@@ -17,7 +18,7 @@ void LCD_GPIO_Init(void)
     HAL_GPIO_Init(GPIOB, &GPIO_Initure);	  //初始化GPIOB
 
 
-    HAL_GPIO_WritePin(GPIOA,I2C_CLK_TEM_Pin|I2C_SDA_TEM_Pin|ST7789_DC_Pin,GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(GPIOA,GPIO_PIN_5|GPIO_PIN_7|ST7789_DC_Pin,GPIO_PIN_SET);
     HAL_GPIO_WritePin(GPIOB,ST7789_RST_Pin|ST7789_CS_Pin|LCD_BL_Pin,GPIO_PIN_SET);
 
 }

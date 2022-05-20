@@ -82,98 +82,15 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .data          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.GPIO_ResetBits
-                0x00000000        0xa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.GPIO_SetBits
-                0x00000000        0xa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_Fill
-                0x00000000       0x3c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_DrawPoint
-                0x00000000       0x14 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .text.LCD_DrawLine
                 0x00000000       0xa4 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .text.LCD_DrawRectangle
                 0x00000000       0x52 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .text.Draw_Circle
                 0x00000000       0xca CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChinese12x12
-                0x00000000      0x130 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChinese16x16
-                0x00000000      0x134 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChinese24x24
-                0x00000000      0x130 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChinese32x32
-                0x00000000      0x134 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChinese
-                0x00000000       0x9a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowChar
-                0x00000000      0x140 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowString
-                0x00000000       0x44 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.mypow    0x00000000       0x16 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowIntNum
-                0x00000000       0xac CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowFloatNum1
-                0x00000000       0xb8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .text.LCD_ShowPicture
-                0x00000000       0x54 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.ascii_1206
-                0x00000000      0x474 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.ascii_1608
-                0x00000000      0x5f0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.ascii_2412
-                0x00000000     0x11d0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.ascii_3216
-                0x00000000     0x17c0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.tfont12
-                0x00000000       0x82 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.tfont16
-                0x00000000       0xaa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.tfont24
-                0x00000000      0x172 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .rodata.tfont32
-                0x00000000      0x28a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_info    0x00000000     0x194b CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_abbrev  0x00000000      0x29e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_loc     0x00000000     0x1829 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_aranges
-                0x00000000       0xa8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_ranges  0x00000000       0x98 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_line    0x00000000      0xe88 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_str     0x00000000      0x4bd CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .comment       0x00000000       0x4a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .debug_frame   0x00000000      0x2bc CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .text          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
  .data          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_GPIO_Init
-                0x00000000       0x6c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_Writ_Bus
-                0x00000000       0x58 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_WR_DATA8
-                0x00000000        0x8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_WR_DATA
-                0x00000000       0x12 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_WR_REG
-                0x00000000       0x24 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_Address_Set
-                0x00000000       0x3e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .text.LCD_Init
-                0x00000000      0x19c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_info    0x00000000      0xb2d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_abbrev  0x00000000      0x17e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_loc     0x00000000      0x172 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_aranges
-                0x00000000       0x50 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_ranges  0x00000000       0x40 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_line    0x00000000      0x3ca CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_str     0x00000000      0x338 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .comment       0x00000000       0x4a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .debug_frame   0x00000000       0xd8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
- .ARM.attributes
-                0x00000000       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
  .text          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
  .data          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
  .bss           0x00000000        0x0 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
@@ -910,18 +827,10 @@ Discarded input sections
  .text          0x00000000       0x14 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
  .data          0x00000000        0x0 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
  .bss           0x00000000        0x0 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
- .text          0x00000000      0x168 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
- .debug_frame   0x00000000       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
- .ARM.attributes
-                0x00000000       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
- .text          0x00000000       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .debug_frame   0x00000000       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
- .ARM.attributes
-                0x00000000       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .text          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
  .data          0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
  .bss           0x00000000        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
@@ -1146,436 +1055,545 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x08000000                g_pfnVectors
                 0x0800010c                . = ALIGN (0x4)
 
-.text           0x0800010c     0x2c04
+.text           0x0800010c     0x3ac4
                 0x0800010c                . = ALIGN (0x4)
  *(.text)
  .text          0x0800010c       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
- .text          0x0800014c       0xec c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memcpy.o)
-                0x0800014c                memcpy
+ .text          0x0800014c      0x168 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+                0x0800014c                __aeabi_fmul
+                0x0800014c                __mulsf3
+ .text          0x080002b4       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+                0x080002b4                __fixunssfsi
+                0x080002b4                __aeabi_f2uiz
+ .text          0x080002f4       0xec c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memcpy.o)
+                0x080002f4                memcpy
  *(.text*)
+ .text.GPIO_ResetBits
+                0x080003e0        0xa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080003e0                GPIO_ResetBits
+ .text.GPIO_SetBits
+                0x080003ea        0xa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080003ea                GPIO_SetBits
+ .text.LCD_Fill
+                0x080003f4       0x3c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080003f4                LCD_Fill
+ .text.LCD_DrawPoint
+                0x08000430       0x14 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000430                LCD_DrawPoint
+ .text.LCD_ShowChinese12x12
+                0x08000444      0x130 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000444                LCD_ShowChinese12x12
+ .text.LCD_ShowChinese16x16
+                0x08000574      0x134 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000574                LCD_ShowChinese16x16
+ .text.LCD_ShowChinese24x24
+                0x080006a8      0x130 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080006a8                LCD_ShowChinese24x24
+ .text.LCD_ShowChinese32x32
+                0x080007d8      0x134 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080007d8                LCD_ShowChinese32x32
+ .text.LCD_ShowChinese
+                0x0800090c       0x9a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x0800090c                LCD_ShowChinese
+ *fill*         0x080009a6        0x2 
+ .text.LCD_ShowChar
+                0x080009a8      0x140 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080009a8                LCD_ShowChar
+ .text.LCD_ShowString
+                0x08000ae8       0x44 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000ae8                LCD_ShowString
+ .text.mypow    0x08000b2c       0x16 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000b2c                mypow
+ *fill*         0x08000b42        0x2 
+ .text.LCD_ShowIntNum
+                0x08000b44       0xac CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000b44                LCD_ShowIntNum
+ .text.LCD_ShowFloatNum1
+                0x08000bf0       0xb8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000bf0                LCD_ShowFloatNum1
+ .text.LCD_ShowPicture
+                0x08000ca8       0x54 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08000ca8                LCD_ShowPicture
+ .text.LCD_GPIO_Init
+                0x08000cfc       0x7c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000cfc                LCD_GPIO_Init
+ .text.LCD_Writ_Bus
+                0x08000d78       0x58 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000d78                LCD_Writ_Bus
+ .text.LCD_WR_DATA8
+                0x08000dd0        0x8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000dd0                LCD_WR_DATA8
+ .text.LCD_WR_DATA
+                0x08000dd8       0x12 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000dd8                LCD_WR_DATA
+ *fill*         0x08000dea        0x2 
+ .text.LCD_WR_REG
+                0x08000dec       0x24 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000dec                LCD_WR_REG
+ .text.LCD_Address_Set
+                0x08000e10       0x3e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000e10                LCD_Address_Set
+ *fill*         0x08000e4e        0x2 
+ .text.LCD_Init
+                0x08000e50      0x19c CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                0x08000e50                LCD_Init
  .text.LED_Init
-                0x08000238       0x7c CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
-                0x08000238                LED_Init
+                0x08000fec       0x7c CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+                0x08000fec                LED_Init
  .text.delay_init
-                0x080002b4       0x14 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
-                0x080002b4                delay_init
+                0x08001068       0x14 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+                0x08001068                delay_init
  .text.delay_us
-                0x080002c8       0x3c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
-                0x080002c8                delay_us
+                0x0800107c       0x3c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+                0x0800107c                delay_us
  .text.delay_ms
-                0x08000304       0x18 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
-                0x08000304                delay_ms
+                0x080010b8       0x18 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+                0x080010b8                delay_ms
  .text.uart_init_1
-                0x0800031c       0x40 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
-                0x0800031c                uart_init_1
+                0x080010d0       0x40 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x080010d0                uart_init_1
  .text.HAL_UART_MspInit
-                0x0800035c      0x110 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
-                0x0800035c                HAL_UART_MspInit
+                0x08001110      0x110 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x08001110                HAL_UART_MspInit
  .text.HAL_UART_RxCpltCallback
-                0x0800046c       0xf4 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
-                0x0800046c                HAL_UART_RxCpltCallback
+                0x08001220       0xf4 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x08001220                HAL_UART_RxCpltCallback
  .text.USART1_IRQHandler
-                0x08000560       0x2c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
-                0x08000560                USART1_IRQHandler
+                0x08001314       0x2c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x08001314                USART1_IRQHandler
  .text.USART2_IRQHandler
-                0x0800058c       0x2c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
-                0x0800058c                USART2_IRQHandler
+                0x08001340       0x2c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x08001340                USART2_IRQHandler
  .text.Error_Handler
-                0x080005b8        0x4 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
-                0x080005b8                Error_Handler
+                0x0800136c        0x4 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                0x0800136c                Error_Handler
  .text.SystemClock_Config
-                0x080005bc       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
-                0x080005bc                SystemClock_Config
- .text.main     0x0800061c       0x7c CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
-                0x0800061c                main
+                0x08001370       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                0x08001370                SystemClock_Config
+ .text.main     0x080013d0      0x188 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                0x080013d0                main
  .text.MX_SPI1_Init
-                0x08000698       0x44 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
-                0x08000698                MX_SPI1_Init
+                0x08001558       0x44 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+                0x08001558                MX_SPI1_Init
  .text.HAL_SPI_MspInit
-                0x080006dc       0x64 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
-                0x080006dc                HAL_SPI_MspInit
+                0x0800159c       0x64 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+                0x0800159c                HAL_SPI_MspInit
  .text.HAL_MspInit
-                0x08000740       0x44 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
-                0x08000740                HAL_MspInit
+                0x08001600       0x44 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x08001600                HAL_MspInit
  .text.NMI_Handler
-                0x08000784        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000784                NMI_Handler
+                0x08001644        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001644                NMI_Handler
  .text.HardFault_Handler
-                0x08000786        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000786                HardFault_Handler
+                0x08001646        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001646                HardFault_Handler
  .text.MemManage_Handler
-                0x08000788        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000788                MemManage_Handler
+                0x08001648        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001648                MemManage_Handler
  .text.BusFault_Handler
-                0x0800078a        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800078a                BusFault_Handler
+                0x0800164a        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800164a                BusFault_Handler
  .text.UsageFault_Handler
-                0x0800078c        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800078c                UsageFault_Handler
+                0x0800164c        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800164c                UsageFault_Handler
  .text.SVC_Handler
-                0x0800078e        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x0800078e                SVC_Handler
+                0x0800164e        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x0800164e                SVC_Handler
  .text.DebugMon_Handler
-                0x08000790        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000790                DebugMon_Handler
+                0x08001650        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001650                DebugMon_Handler
  .text.PendSV_Handler
-                0x08000792        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000792                PendSV_Handler
+                0x08001652        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001652                PendSV_Handler
  .text.SysTick_Handler
-                0x08000794        0x8 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
-                0x08000794                SysTick_Handler
- .text._sbrk    0x0800079c       0x3c CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
-                0x0800079c                _sbrk
- .text._close   0x080007d8        0x6 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
-                0x080007d8                _close
- .text._fstat   0x080007de        0xa CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
-                0x080007de                _fstat
- .text._lseek   0x080007e8        0x4 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
-                0x080007e8                _lseek
+                0x08001654        0x8 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x08001654                SysTick_Handler
+ .text._sbrk    0x0800165c       0x3c CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+                0x0800165c                _sbrk
+ .text._close   0x08001698        0x6 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+                0x08001698                _close
+ .text._fstat   0x0800169e        0xa CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+                0x0800169e                _fstat
+ .text._lseek   0x080016a8        0x4 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+                0x080016a8                _lseek
  .text.SystemInit
-                0x080007ec        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x080007ec                SystemInit
- *fill*         0x080007ee        0x2 
+                0x080016ac        0x2 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080016ac                SystemInit
+ *fill*         0x080016ae        0x2 
  .text.RetargetInit
-                0x080007f0       0x20 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
-                0x080007f0                RetargetInit
- .text._write   0x08000810       0x34 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
-                0x08000810                _write
- .text._read    0x08000844       0x30 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
-                0x08000844                _read
+                0x080016b0       0x20 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+                0x080016b0                RetargetInit
+ .text._write   0x080016d0       0x34 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+                0x080016d0                _write
+ .text._read    0x08001704       0x30 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+                0x08001704                _read
  .text.HAL_InitTick
-                0x08000874       0x4c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x08000874                HAL_InitTick
+                0x08001734       0x4c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001734                HAL_InitTick
  .text.HAL_Init
-                0x080008c0       0x24 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080008c0                HAL_Init
+                0x08001780       0x24 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x08001780                HAL_Init
  .text.HAL_IncTick
-                0x080008e4       0x18 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080008e4                HAL_IncTick
+                0x080017a4       0x18 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080017a4                HAL_IncTick
  .text.HAL_GetTick
-                0x080008fc        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
-                0x080008fc                HAL_GetTick
+                0x080017bc        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x080017bc                HAL_GetTick
  .text.HAL_NVIC_SetPriorityGrouping
-                0x08000908       0x24 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x08000908                HAL_NVIC_SetPriorityGrouping
+                0x080017c8       0x24 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080017c8                HAL_NVIC_SetPriorityGrouping
  .text.HAL_NVIC_SetPriority
-                0x0800092c       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800092c                HAL_NVIC_SetPriority
+                0x080017ec       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080017ec                HAL_NVIC_SetPriority
  .text.HAL_NVIC_EnableIRQ
-                0x0800099c       0x1c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x0800099c                HAL_NVIC_EnableIRQ
+                0x0800185c       0x1c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x0800185c                HAL_NVIC_EnableIRQ
  .text.HAL_SYSTICK_Config
-                0x080009b8       0x28 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080009b8                HAL_SYSTICK_Config
+                0x08001878       0x28 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x08001878                HAL_SYSTICK_Config
  .text.HAL_SYSTICK_CLKSourceConfig
-                0x080009e0       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
-                0x080009e0                HAL_SYSTICK_CLKSourceConfig
+                0x080018a0       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x080018a0                HAL_SYSTICK_CLKSourceConfig
  .text.HAL_DMA_Abort
-                0x08000a00       0x44 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08000a00                HAL_DMA_Abort
+                0x080018c0       0x44 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x080018c0                HAL_DMA_Abort
  .text.HAL_DMA_Abort_IT
-                0x08000a44       0x98 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
-                0x08000a44                HAL_DMA_Abort_IT
+                0x08001904       0x98 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x08001904                HAL_DMA_Abort_IT
  .text.HAL_GPIO_Init
-                0x08000adc      0x224 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000adc                HAL_GPIO_Init
+                0x0800199c      0x224 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x0800199c                HAL_GPIO_Init
  .text.HAL_GPIO_WritePin
-                0x08000d00        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
-                0x08000d00                HAL_GPIO_WritePin
+                0x08001bc0        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x08001bc0                HAL_GPIO_WritePin
  .text.RCC_Delay
-                0x08000d0c       0x2c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001bcc       0x2c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .text.HAL_RCC_OscConfig
-                0x08000d38      0x410 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08000d38                HAL_RCC_OscConfig
+                0x08001bf8      0x410 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08001bf8                HAL_RCC_OscConfig
  .text.HAL_RCC_GetSysClockFreq
-                0x08001148       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001148                HAL_RCC_GetSysClockFreq
+                0x08002008       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002008                HAL_RCC_GetSysClockFreq
  .text.HAL_RCC_ClockConfig
-                0x080011b8      0x16c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x080011b8                HAL_RCC_ClockConfig
+                0x08002078      0x16c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002078                HAL_RCC_ClockConfig
  .text.HAL_RCC_GetHCLKFreq
-                0x08001324        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001324                HAL_RCC_GetHCLKFreq
+                0x080021e4        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080021e4                HAL_RCC_GetHCLKFreq
  .text.HAL_RCC_GetPCLK1Freq
-                0x08001330       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001330                HAL_RCC_GetPCLK1Freq
+                0x080021f0       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x080021f0                HAL_RCC_GetPCLK1Freq
  .text.HAL_RCC_GetPCLK2Freq
-                0x08001350       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
-                0x08001350                HAL_RCC_GetPCLK2Freq
+                0x08002210       0x20 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x08002210                HAL_RCC_GetPCLK2Freq
  .text.HAL_SPI_Init
-                0x08001370       0xb6 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
-                0x08001370                HAL_SPI_Init
+                0x08002230       0xb6 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x08002230                HAL_SPI_Init
  .text.UART_EndRxTransfer
-                0x08001426       0x32 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080022e6       0x32 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_Transmit_IT
-                0x08001458       0x60 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002318       0x60 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_SetConfig
-                0x080014b8       0x94 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002378       0x94 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.UART_WaitOnFlagUntilTimeout
-                0x0800154c       0x6c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800240c       0x6c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_Init
-                0x080015b8       0x5e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080015b8                HAL_UART_Init
+                0x08002478       0x5e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002478                HAL_UART_Init
  .text.HAL_UART_Transmit
-                0x08001616       0xd8 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08001616                HAL_UART_Transmit
+                0x080024d6       0xd8 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080024d6                HAL_UART_Transmit
  .text.HAL_UART_Receive
-                0x080016ee       0xe4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080016ee                HAL_UART_Receive
+                0x080025ae       0xe4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080025ae                HAL_UART_Receive
  .text.HAL_UART_TxCpltCallback
-                0x080017d2        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080017d2                HAL_UART_TxCpltCallback
+                0x08002692        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002692                HAL_UART_TxCpltCallback
  .text.UART_EndTransmit_IT
-                0x080017d4       0x1a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002694       0x1a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UART_ErrorCallback
-                0x080017ee        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080017ee                HAL_UART_ErrorCallback
+                0x080026ae        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080026ae                HAL_UART_ErrorCallback
  .text.UART_DMAAbortOnError
-                0x080017f0       0x10 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080026b0       0x10 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .text.HAL_UARTEx_RxEventCallback
-                0x08001800        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08001800                HAL_UARTEx_RxEventCallback
+                0x080026c0        0x2 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080026c0                HAL_UARTEx_RxEventCallback
  .text.UART_Receive_IT
-                0x08001802       0xd4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- *fill*         0x080018d6        0x2 
+                0x080026c2       0xd4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ *fill*         0x08002796        0x2 
  .text.HAL_UART_IRQHandler
-                0x080018d8      0x204 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x080018d8                HAL_UART_IRQHandler
+                0x08002798      0x204 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x08002798                HAL_UART_IRQHandler
  .text.HAL_UART_GetState
-                0x08001adc        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08001adc                HAL_UART_GetState
+                0x0800299c        0xc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0800299c                HAL_UART_GetState
  .text.UART_Start_Receive_IT
-                0x08001ae8       0x36 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08001ae8                UART_Start_Receive_IT
+                0x080029a8       0x36 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080029a8                UART_Start_Receive_IT
  .text.HAL_UART_Receive_IT
-                0x08001b1e       0x38 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
-                0x08001b1e                HAL_UART_Receive_IT
- *fill*         0x08001b56        0x2 
+                0x080029de       0x38 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x080029de                HAL_UART_Receive_IT
+ *fill*         0x08002a16        0x2 
  .text.Reset_Handler
-                0x08001b58       0x48 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
-                0x08001b58                Reset_Handler
+                0x08002a18       0x48 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+                0x08002a18                Reset_Handler
  .text.Default_Handler
-                0x08001ba0        0x2 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
-                0x08001ba0                RTC_Alarm_IRQHandler
-                0x08001ba0                EXTI2_IRQHandler
-                0x08001ba0                TIM1_CC_IRQHandler
-                0x08001ba0                PVD_IRQHandler
-                0x08001ba0                EXTI3_IRQHandler
-                0x08001ba0                EXTI0_IRQHandler
-                0x08001ba0                I2C2_EV_IRQHandler
-                0x08001ba0                ADC1_2_IRQHandler
-                0x08001ba0                SPI1_IRQHandler
-                0x08001ba0                TAMPER_IRQHandler
-                0x08001ba0                DMA1_Channel4_IRQHandler
-                0x08001ba0                USART3_IRQHandler
-                0x08001ba0                RTC_IRQHandler
-                0x08001ba0                DMA1_Channel7_IRQHandler
-                0x08001ba0                CAN1_RX1_IRQHandler
-                0x08001ba0                TIM4_IRQHandler
-                0x08001ba0                I2C1_EV_IRQHandler
-                0x08001ba0                DMA1_Channel6_IRQHandler
-                0x08001ba0                TIM3_IRQHandler
-                0x08001ba0                RCC_IRQHandler
-                0x08001ba0                TIM1_TRG_COM_IRQHandler
-                0x08001ba0                DMA1_Channel1_IRQHandler
-                0x08001ba0                Default_Handler
-                0x08001ba0                EXTI15_10_IRQHandler
-                0x08001ba0                EXTI9_5_IRQHandler
-                0x08001ba0                SPI2_IRQHandler
-                0x08001ba0                DMA1_Channel5_IRQHandler
-                0x08001ba0                EXTI4_IRQHandler
-                0x08001ba0                USB_LP_CAN1_RX0_IRQHandler
-                0x08001ba0                USB_HP_CAN1_TX_IRQHandler
-                0x08001ba0                DMA1_Channel3_IRQHandler
-                0x08001ba0                TIM1_UP_IRQHandler
-                0x08001ba0                WWDG_IRQHandler
-                0x08001ba0                TIM2_IRQHandler
-                0x08001ba0                TIM1_BRK_IRQHandler
-                0x08001ba0                EXTI1_IRQHandler
-                0x08001ba0                I2C2_ER_IRQHandler
-                0x08001ba0                DMA1_Channel2_IRQHandler
-                0x08001ba0                CAN1_SCE_IRQHandler
-                0x08001ba0                FLASH_IRQHandler
-                0x08001ba0                I2C1_ER_IRQHandler
-                0x08001ba0                USBWakeUp_IRQHandler
- *fill*         0x08001ba2        0x2 
- .text.__errno  0x08001ba4        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
-                0x08001ba4                __errno
+                0x08002a60        0x2 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+                0x08002a60                RTC_Alarm_IRQHandler
+                0x08002a60                EXTI2_IRQHandler
+                0x08002a60                TIM1_CC_IRQHandler
+                0x08002a60                PVD_IRQHandler
+                0x08002a60                EXTI3_IRQHandler
+                0x08002a60                EXTI0_IRQHandler
+                0x08002a60                I2C2_EV_IRQHandler
+                0x08002a60                ADC1_2_IRQHandler
+                0x08002a60                SPI1_IRQHandler
+                0x08002a60                TAMPER_IRQHandler
+                0x08002a60                DMA1_Channel4_IRQHandler
+                0x08002a60                USART3_IRQHandler
+                0x08002a60                RTC_IRQHandler
+                0x08002a60                DMA1_Channel7_IRQHandler
+                0x08002a60                CAN1_RX1_IRQHandler
+                0x08002a60                TIM4_IRQHandler
+                0x08002a60                I2C1_EV_IRQHandler
+                0x08002a60                DMA1_Channel6_IRQHandler
+                0x08002a60                TIM3_IRQHandler
+                0x08002a60                RCC_IRQHandler
+                0x08002a60                TIM1_TRG_COM_IRQHandler
+                0x08002a60                DMA1_Channel1_IRQHandler
+                0x08002a60                Default_Handler
+                0x08002a60                EXTI15_10_IRQHandler
+                0x08002a60                EXTI9_5_IRQHandler
+                0x08002a60                SPI2_IRQHandler
+                0x08002a60                DMA1_Channel5_IRQHandler
+                0x08002a60                EXTI4_IRQHandler
+                0x08002a60                USB_LP_CAN1_RX0_IRQHandler
+                0x08002a60                USB_HP_CAN1_TX_IRQHandler
+                0x08002a60                DMA1_Channel3_IRQHandler
+                0x08002a60                TIM1_UP_IRQHandler
+                0x08002a60                WWDG_IRQHandler
+                0x08002a60                TIM2_IRQHandler
+                0x08002a60                TIM1_BRK_IRQHandler
+                0x08002a60                EXTI1_IRQHandler
+                0x08002a60                I2C2_ER_IRQHandler
+                0x08002a60                DMA1_Channel2_IRQHandler
+                0x08002a60                CAN1_SCE_IRQHandler
+                0x08002a60                FLASH_IRQHandler
+                0x08002a60                I2C1_ER_IRQHandler
+                0x08002a60                USBWakeUp_IRQHandler
+ *fill*         0x08002a62        0x2 
+ .text.__errno  0x08002a64        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
+                0x08002a64                __errno
  .text.__libc_init_array
-                0x08001bb0       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
-                0x08001bb0                __libc_init_array
- .text.memset   0x08001bf8       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
-                0x08001bf8                memset
- .text.setvbuf  0x08001c9c      0x1b0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
-                0x08001c9c                setvbuf
+                0x08002a70       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x08002a70                __libc_init_array
+ .text.memset   0x08002ab8       0xa4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x08002ab8                memset
+ .text.setvbuf  0x08002b5c      0x1b0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
+                0x08002b5c                setvbuf
  .text.startup.register_fini
-                0x08001e4c       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .text.atexit   0x08001e60        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
-                0x08001e60                atexit
+                0x08002d0c       0x14 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .text.atexit   0x08002d20        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x08002d20                atexit
  .text.__sflush_r
-                0x08001e6c      0x124 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
-                0x08001e6c                __sflush_r
+                0x08002d2c      0x124 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
+                0x08002d2c                __sflush_r
  .text._fflush_r
-                0x08001f90       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
-                0x08001f90                _fflush_r
+                0x08002e50       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
+                0x08002e50                _fflush_r
  .text._cleanup_r
-                0x08001fec        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
-                0x08001fec                _cleanup_r
- .text.__sinit  0x08001ff8      0x10c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
-                0x08001ff8                __sinit
+                0x08002eac        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+                0x08002eac                _cleanup_r
+ .text.__sinit  0x08002eb8      0x10c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+                0x08002eb8                __sinit
  .text.__sfp_lock_acquire
-                0x08002104        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
-                0x08002104                __sfp_lock_acquire
+                0x08002fc4        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+                0x08002fc4                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x08002110        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
-                0x08002110                __sfp_lock_release
+                0x08002fd0        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+                0x08002fd0                __sfp_lock_release
  .text.__libc_fini_array
-                0x0800211c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
-                0x0800211c                __libc_fini_array
+                0x08002fdc       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x08002fdc                __libc_fini_array
  .text._malloc_trim_r
-                0x08002148       0xa0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
-                0x08002148                _malloc_trim_r
- .text._free_r  0x080021e8      0x200 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
-                0x080021e8                _free_r
+                0x08003008       0xa0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
+                0x08003008                _malloc_trim_r
+ .text._free_r  0x080030a8      0x200 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
+                0x080030a8                _free_r
  .text._fwalk_reent
-                0x080023e8       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
-                0x080023e8                _fwalk_reent
+                0x080032a8       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
+                0x080032a8                _fwalk_reent
  .text.__retarget_lock_init_recursive
-                0x08002430        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08002430                __retarget_lock_init_recursive
+                0x080032f0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080032f0                __retarget_lock_init_recursive
  .text.__retarget_lock_close_recursive
-                0x08002434        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08002434                __retarget_lock_close_recursive
+                0x080032f4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080032f4                __retarget_lock_close_recursive
  .text.__retarget_lock_acquire_recursive
-                0x08002438        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x08002438                __retarget_lock_acquire_recursive
+                0x080032f8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080032f8                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x0800243c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
-                0x0800243c                __retarget_lock_release_recursive
+                0x080032fc        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x080032fc                __retarget_lock_release_recursive
  .text.__swhatbuf_r
-                0x08002440       0x60 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
-                0x08002440                __swhatbuf_r
- .text.malloc   0x080024a0       0x10 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
-                0x080024a0                malloc
+                0x08003300       0x60 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
+                0x08003300                __swhatbuf_r
+ .text.malloc   0x08003360       0x10 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
+                0x08003360                malloc
  .text._malloc_r
-                0x080024b0      0x558 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
-                0x080024b0                _malloc_r
+                0x08003370      0x558 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
+                0x08003370                _malloc_r
  .text.__malloc_lock
-                0x08002a08        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
-                0x08002a08                __malloc_lock
+                0x080038c8        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
+                0x080038c8                __malloc_lock
  .text.__malloc_unlock
-                0x08002a14        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
-                0x08002a14                __malloc_unlock
- .text._sbrk_r  0x08002a20       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
-                0x08002a20                _sbrk_r
- .text.__sread  0x08002a44       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
-                0x08002a44                __sread
+                0x080038d4        0xc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
+                0x080038d4                __malloc_unlock
+ .text._sbrk_r  0x080038e0       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
+                0x080038e0                _sbrk_r
+ .text.__sread  0x08003904       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+                0x08003904                __sread
  .text.__swrite
-                0x08002a68       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
-                0x08002a68                __swrite
- .text.__sseek  0x08002aa8       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
-                0x08002aa8                __sseek
+                0x08003928       0x40 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+                0x08003928                __swrite
+ .text.__sseek  0x08003968       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+                0x08003968                __sseek
  .text.__sclose
-                0x08002ac8        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
-                0x08002ac8                __sclose
+                0x08003988        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+                0x08003988                __sclose
  .text._write_r
-                0x08002ad0       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
-                0x08002ad0                _write_r
+                0x08003990       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
+                0x08003990                _write_r
  .text.__register_exitproc
-                0x08002afc       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
-                0x08002afc                __register_exitproc
+                0x080039bc       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x080039bc                __register_exitproc
  .text._close_r
-                0x08002b88       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
-                0x08002b88                _close_r
+                0x08003a48       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
+                0x08003a48                _close_r
  .text._fclose_r
-                0x08002bac       0xcc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
-                0x08002bac                _fclose_r
+                0x08003a6c       0xcc c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
+                0x08003a6c                _fclose_r
  .text._fstat_r
-                0x08002c78       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
-                0x08002c78                _fstat_r
+                0x08003b38       0x28 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
+                0x08003b38                _fstat_r
  .text._lseek_r
-                0x08002ca0       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
-                0x08002ca0                _lseek_r
- .text._read_r  0x08002ccc       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
-                0x08002ccc                _read_r
+                0x08003b60       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
+                0x08003b60                _lseek_r
+ .text._read_r  0x08003b8c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
+                0x08003b8c                _read_r
  *(.glue_7)
- .glue_7        0x08002cf8        0x0 linker stubs
+ .glue_7        0x08003bb8        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x08002cf8        0x0 linker stubs
+ .glue_7t       0x08003bb8        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x08002cf8        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x08003bb8        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x08002cf8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x08002cf8                _init
- .init          0x08002cfc        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x08003bb8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08003bb8                _init
+ .init          0x08003bbc        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x08002d04        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
-                0x08002d04                _fini
- .fini          0x08002d08        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
-                0x08002d10                . = ALIGN (0x4)
-                0x08002d10                _etext = .
+ .fini          0x08003bc4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crti.o
+                0x08003bc4                _fini
+ .fini          0x08003bc8        0x8 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x08003bd0                . = ALIGN (0x4)
+                0x08003bd0                _etext = .
 
-.vfp11_veneer   0x08002d10        0x0
- .vfp11_veneer  0x08002d10        0x0 linker stubs
+.vfp11_veneer   0x08003bd0        0x0
+ .vfp11_veneer  0x08003bd0        0x0 linker stubs
 
-.v4_bx          0x08002d10        0x0
- .v4_bx         0x08002d10        0x0 linker stubs
+.v4_bx          0x08003bd0        0x0
+ .v4_bx         0x08003bd0        0x0 linker stubs
 
-.iplt           0x08002d10        0x0
- .iplt          0x08002d10        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x08003bd0        0x0
+ .iplt          0x08003bd0        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x08002d10       0x30
-                0x08002d10                . = ALIGN (0x4)
+.rodata         0x08003bd0     0x4604
+                0x08003bd0                . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
+ .rodata.ascii_1206
+                0x08003bd0      0x474 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08003bd0                ascii_1206
+ .rodata.ascii_1608
+                0x08004044      0x5f0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08004044                ascii_1608
+ .rodata.ascii_2412
+                0x08004634     0x11d0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08004634                ascii_2412
+ .rodata.ascii_3216
+                0x08005804     0x17c0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08005804                ascii_3216
+ .rodata.tfont12
+                0x08006fc4       0x82 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08006fc4                tfont12
+ *fill*         0x08007046        0x2 
+ .rodata.tfont16
+                0x08007048       0xaa CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08007048                tfont16
+ *fill*         0x080070f2        0x2 
+ .rodata.tfont24
+                0x080070f4      0x172 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x080070f4                tfont24
+ *fill*         0x08007266        0x2 
+ .rodata.tfont32
+                0x08007268      0x28a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                0x08007268                tfont32
+ *fill*         0x080074f2        0x2 
+ .rodata.main.str1.4
+                0x080074f4       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ *fill*         0x08007521        0x3 
+ .rodata.gImage_1
+                0x08007524      0xc80 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                0x08007524                gImage_1
  .rodata.AHBPrescTable
-                0x08002d10       0x10 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08002d10                AHBPrescTable
+                0x080081a4       0x10 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080081a4                AHBPrescTable
  .rodata.APBPrescTable
-                0x08002d20        0x8 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
-                0x08002d20                APBPrescTable
+                0x080081b4        0x8 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x080081b4                APBPrescTable
  .rodata.HAL_RCC_GetSysClockFreq.str1.4
-                0x08002d28       0x11 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- *fill*         0x08002d39        0x3 
+                0x080081bc       0x11 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ *fill*         0x080081cd        0x3 
  .rodata._global_impure_ptr
-                0x08002d3c        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
-                0x08002d3c                _global_impure_ptr
-                0x08002d40                . = ALIGN (0x4)
+                0x080081d0        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x080081d0                _global_impure_ptr
+                0x080081d4                . = ALIGN (0x4)
 
-.rel.dyn        0x08002d40        0x0
- .rel.iplt      0x08002d40        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x080081d4        0x0
+ .rel.iplt      0x080081d4        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x08002d40        0x0
-                0x08002d40                __exidx_start = .
+.ARM            0x080081d4        0x0
+                0x080081d4                __exidx_start = .
  *(.ARM.exidx*)
-                0x08002d40                __exidx_end = .
+                0x080081d4                __exidx_end = .
 
-.preinit_array  0x08002d40        0x0
-                0x08002d40                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x080081d4        0x0
+                0x080081d4                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08002d40                PROVIDE (__preinit_array_end = .)
+                0x080081d4                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x08002d40        0x8
-                0x08002d40                PROVIDE (__init_array_start = .)
+.init_array     0x080081d4        0x8
+                0x080081d4                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08002d40        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x080081d4        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08002d44        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08002d48                PROVIDE (__init_array_end = .)
+ .init_array    0x080081d8        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x080081dc                PROVIDE (__init_array_end = .)
 
-.fini_array     0x08002d48        0x4
-                0x08002d48                PROVIDE (__fini_array_start = .)
+.fini_array     0x080081dc        0x4
+                0x080081dc                PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x08002d48        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x08002d4c                PROVIDE (__fini_array_end = .)
-                0x08002d4c                _sidata = LOADADDR (.data)
+ .fini_array    0x080081dc        0x4 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x080081e0                PROVIDE (__fini_array_end = .)
+                0x080081e0                _sidata = LOADADDR (.data)
 
-.data           0x20000000      0x84c load address 0x08002d4c
+.data           0x20000000      0x84c load address 0x080081e0
                 0x20000000                . = ALIGN (0x4)
                 0x20000000                _sdata = .
  *(.data)
@@ -1610,11 +1628,11 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x2000084c                . = ALIGN (0x4)
                 0x2000084c                _edata = .
 
-.igot.plt       0x2000084c        0x0 load address 0x08003598
+.igot.plt       0x2000084c        0x0 load address 0x08008a2c
  .igot.plt      0x2000084c        0x0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
                 0x2000084c                . = ALIGN (0x4)
 
-.bss            0x2000084c      0x238 load address 0x08003598
+.bss            0x2000084c      0x238 load address 0x08008a2c
                 0x2000084c                _sbss = .
                 0x2000084c                __bss_start__ = _sbss
  *(.bss)
@@ -1689,7 +1707,7 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
                 0x20000a84                __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x20000a84      0x604 load address 0x08003598
+                0x20000a84      0x604 load address 0x08008a2c
                 0x20000a88                . = ALIGN (0x8)
  *fill*         0x20000a84        0x4 
                 0x20000a88                PROVIDE (end = .)
@@ -1713,264 +1731,309 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .ARM.attributes
                 0x0000001d       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtbegin.o
  .ARM.attributes
-                0x0000004a       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+                0x0000004a       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
  .ARM.attributes
-                0x00000077       0x2d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+                0x00000077       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
  .ARM.attributes
-                0x000000a4       0x2d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+                0x000000a4       0x2d CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
  .ARM.attributes
-                0x000000d1       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                0x000000d1       0x2d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
  .ARM.attributes
-                0x000000fe       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+                0x000000fe       0x2d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
  .ARM.attributes
-                0x0000012b       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+                0x0000012b       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
  .ARM.attributes
-                0x00000158       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+                0x00000158       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
  .ARM.attributes
-                0x00000185       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+                0x00000185       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
  .ARM.attributes
-                0x000001b2       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+                0x000001b2       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
  .ARM.attributes
-                0x000001df       0x2d CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+                0x000001df       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
  .ARM.attributes
-                0x0000020c       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+                0x0000020c       0x2d CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
  .ARM.attributes
-                0x00000239       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+                0x00000239       0x2d CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
  .ARM.attributes
-                0x00000266       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+                0x00000266       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
  .ARM.attributes
-                0x00000293       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+                0x00000293       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000002c0       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+                0x000002c0       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
  .ARM.attributes
-                0x000002ed       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+                0x000002ed       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
  .ARM.attributes
-                0x0000031a       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+                0x0000031a       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
  .ARM.attributes
-                0x00000347       0x21 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+                0x00000347       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .ARM.attributes
-                0x00000368       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
+                0x00000374       0x2d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
  .ARM.attributes
-                0x00000395       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
+                0x000003a1       0x21 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
  .ARM.attributes
-                0x000003c2       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+                0x000003c2       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
  .ARM.attributes
-                0x000003ef       0x1b c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memcpy.o)
+                0x000003df       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
  .ARM.attributes
-                0x0000040a       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+                0x000003fc       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000437       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
+                0x00000429       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-impure.o)
  .ARM.attributes
-                0x00000464       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+                0x00000456       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
  .ARM.attributes
-                0x00000491       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+                0x00000483       0x1b c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000004be       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
+                0x0000049e       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
  .ARM.attributes
-                0x000004eb       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+                0x000004cb       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
  .ARM.attributes
-                0x00000518       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+                0x000004f8       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
  .ARM.attributes
-                0x00000545       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
+                0x00000525       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
  .ARM.attributes
-                0x00000572       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
+                0x00000552       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
  .ARM.attributes
-                0x0000059f       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+                0x0000057f       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
  .ARM.attributes
-                0x000005cc       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
+                0x000005ac       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
  .ARM.attributes
-                0x000005f9       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
+                0x000005d9       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
  .ARM.attributes
-                0x00000626       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
+                0x00000606       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000653       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
+                0x00000633       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
  .ARM.attributes
-                0x00000680       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
+                0x00000660       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x000006ad       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+                0x0000068d       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
  .ARM.attributes
-                0x000006da       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
+                0x000006ba       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x00000707       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+                0x000006e7       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000734       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
+                0x00000714       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000761       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
+                0x00000741       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
  .ARM.attributes
-                0x0000078e       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
+                0x0000076e       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
  .ARM.attributes
-                0x000007bb       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
+                0x0000079b       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
  .ARM.attributes
-                0x000007e8       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
+                0x000007c8       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
  .ARM.attributes
-                0x00000815       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-reent.o)
+                0x000007f5       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
  .ARM.attributes
-                0x00000842       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
+                0x00000822       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
+ .ARM.attributes
+                0x0000084f       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
+ .ARM.attributes
+                0x0000087c       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
+ .ARM.attributes
+                0x000008a9       0x2d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-reent.o)
+ .ARM.attributes
+                0x000008d6       0x1d c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp/crtn.o
 OUTPUT(Test_280.elf elf32-littlearm)
 LOAD linker stubs
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libc.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libm.a
 LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a
 
-.debug_info     0x00000000     0xb060
- .debug_info    0x00000000      0x31a CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_info    0x0000031a      0x26e CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_info    0x00000588     0x11e6 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_info    0x0000176e      0xb05 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_info    0x00002273      0x857 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_info    0x00002aca      0x211 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_info    0x00002cdb      0x130 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_info    0x00002e0b      0x835 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_info    0x00003640      0x248 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_info    0x00003888      0xf9e CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_info    0x00004826      0x7a8 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_info    0x00004fce      0xd8a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_info    0x00005d58      0x846 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_info    0x0000659e      0x66f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_info    0x00006c0d      0xa36 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_info    0x00007643     0x1d70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_info    0x000093b3     0x1c8b CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_info    0x0000b03e       0x22 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+.debug_info     0x00000000     0xd810
+ .debug_info    0x00000000     0x194b CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_info    0x0000194b      0xb4f CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_info    0x0000249a      0x31a CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_info    0x000027b4      0x26e CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_info    0x00002a22     0x11e6 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_info    0x00003c08      0xe1b CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_info    0x00004a23      0x857 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_info    0x0000527a      0x211 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_info    0x0000548b      0x130 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_info    0x000055bb      0x835 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_info    0x00005df0      0x248 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_info    0x00006038      0xf9e CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_info    0x00006fd6      0x7a8 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_info    0x0000777e      0xd8a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_info    0x00008508      0x846 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_info    0x00008d4e      0x66f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_info    0x000093bd      0xa36 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_info    0x00009df3     0x1d70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_info    0x0000bb63     0x1c8b CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_info    0x0000d7ee       0x22 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_abbrev   0x00000000     0x20f8
- .debug_abbrev  0x00000000      0x120 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_abbrev  0x00000120      0x13d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_abbrev  0x0000025d      0x2d7 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_abbrev  0x00000534      0x27b CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_abbrev  0x000007af      0x1c1 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_abbrev  0x00000970       0xe5 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_abbrev  0x00000a55       0x7e CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_abbrev  0x00000ad3      0x1da CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_abbrev  0x00000cad      0x13e CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_abbrev  0x00000deb      0x2b4 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_abbrev  0x0000109f      0x1f4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_abbrev  0x00001293      0x341 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_abbrev  0x000015d4      0x223 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_abbrev  0x000017f7      0x1e6 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_abbrev  0x000019dd      0x27a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_abbrev  0x00001c57      0x23b CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_abbrev  0x00001e92      0x254 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_abbrev  0x000020e6       0x12 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+.debug_abbrev   0x00000000     0x2547
+ .debug_abbrev  0x00000000      0x29e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_abbrev  0x0000029e      0x17e CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_abbrev  0x0000041c      0x120 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_abbrev  0x0000053c      0x13d CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_abbrev  0x00000679      0x2d7 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_abbrev  0x00000950      0x2ae CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_abbrev  0x00000bfe      0x1c1 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_abbrev  0x00000dbf       0xe5 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_abbrev  0x00000ea4       0x7e CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_abbrev  0x00000f22      0x1da CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_abbrev  0x000010fc      0x13e CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_abbrev  0x0000123a      0x2b4 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_abbrev  0x000014ee      0x1f4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_abbrev  0x000016e2      0x341 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_abbrev  0x00001a23      0x223 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_abbrev  0x00001c46      0x1e6 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_abbrev  0x00001e2c      0x27a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_abbrev  0x000020a6      0x23b CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_abbrev  0x000022e1      0x254 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_abbrev  0x00002535       0x12 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_aranges  0x00000000      0x990
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_aranges
-                0x00000020       0x30 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_aranges
-                0x00000050       0x80 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_aranges
-                0x000000d0       0x38 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_aranges
-                0x00000108       0x30 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_aranges
-                0x00000138       0x20 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_aranges
-                0x00000158       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_aranges
-                0x000001b8       0xb0 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_aranges
-                0x00000268       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_aranges
-                0x00000290       0x30 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_aranges
-                0x000002c0       0xe0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_aranges
-                0x000003a0       0x90 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_aranges
-                0x00000430       0x80 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_aranges
-                0x000004b0       0x58 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_aranges
-                0x00000508       0x90 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_aranges
-                0x00000598      0x1d0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_aranges
-                0x00000768      0x200 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_aranges
-                0x00000968       0x28 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+.debug_loc      0x00000000     0x81cb
+ .debug_loc     0x00000000     0x1829 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_loc     0x00001829      0x172 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_loc     0x0000199b      0x157 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_loc     0x00001af2      0x61c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_loc     0x0000210e       0x6c CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_loc     0x0000217a       0x84 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_loc     0x000021fe       0x15 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_loc     0x00002213      0x436 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_loc     0x00002649       0xff CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_loc     0x00002748      0x212 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_loc     0x0000295a      0x141 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_loc     0x00002a9b      0x71f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_loc     0x000031ba      0x7d1 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_loc     0x0000398b      0x47d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_loc     0x00003e08      0x63e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_loc     0x00004446     0x1d4e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_loc     0x00006194     0x2037 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_ranges   0x00000000      0x8f8
- .debug_ranges  0x00000000       0x10 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_ranges  0x00000010       0x20 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_ranges  0x00000030       0x70 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_ranges  0x000000a0       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_ranges  0x000000c8       0x20 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_ranges  0x000000e8       0x10 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_ranges  0x000000f8       0x50 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_ranges  0x00000148       0xa0 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_ranges  0x000001e8       0x18 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_ranges  0x00000200       0x20 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_ranges  0x00000220       0xd0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_ranges  0x000002f0       0xe0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_ranges  0x000003d0       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_ranges  0x00000440       0x48 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_ranges  0x00000488       0xa0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_ranges  0x00000528      0x1c0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_ranges  0x000006e8      0x1f0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_ranges  0x000008d8       0x20 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+.debug_aranges  0x00000000      0xa88
+ .debug_aranges
+                0x00000000       0xa8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_aranges
+                0x000000a8       0x50 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_aranges
+                0x000000f8       0x20 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_aranges
+                0x00000118       0x30 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_aranges
+                0x00000148       0x80 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_aranges
+                0x000001c8       0x38 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_aranges
+                0x00000200       0x30 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_aranges
+                0x00000230       0x20 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_aranges
+                0x00000250       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_aranges
+                0x000002b0       0xb0 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_aranges
+                0x00000360       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_aranges
+                0x00000388       0x30 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_aranges
+                0x000003b8       0xe0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_aranges
+                0x00000498       0x90 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_aranges
+                0x00000528       0x80 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_aranges
+                0x000005a8       0x58 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_aranges
+                0x00000600       0x90 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_aranges
+                0x00000690      0x1d0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_aranges
+                0x00000860      0x200 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_aranges
+                0x00000a60       0x28 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_line     0x00000000     0x90c9
- .debug_line    0x00000000      0x1f0 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_line    0x000001f0      0x2c0 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_line    0x000004b0      0x8a0 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_line    0x00000d50      0x4f6 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_line    0x00001246      0x32b CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_line    0x00001571      0x179 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_line    0x000016ea      0x1b3 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_line    0x0000189d      0x44a CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_line    0x00001ce7      0x242 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_line    0x00001f29      0x343 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_line    0x0000226c      0x566 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_line    0x000027d2      0x653 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_line    0x00002e25      0xa6d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_line    0x00003892      0x5fd CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_line    0x00003e8f      0xc46 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_line    0x00004ad5     0x2484 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_line    0x00006f59     0x20d5 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_line    0x0000902e       0x9b CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+.debug_ranges   0x00000000      0x9d0
+ .debug_ranges  0x00000000       0x98 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_ranges  0x00000098       0x40 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_ranges  0x000000d8       0x10 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_ranges  0x000000e8       0x20 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_ranges  0x00000108       0x70 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_ranges  0x00000178       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_ranges  0x000001a0       0x20 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_ranges  0x000001c0       0x10 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_ranges  0x000001d0       0x50 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_ranges  0x00000220       0xa0 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_ranges  0x000002c0       0x18 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_ranges  0x000002d8       0x20 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_ranges  0x000002f8       0xd0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_ranges  0x000003c8       0xe0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_ranges  0x000004a8       0x70 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_ranges  0x00000518       0x48 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_ranges  0x00000560       0xa0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_ranges  0x00000600      0x1c0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_ranges  0x000007c0      0x1f0 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_ranges  0x000009b0       0x20 CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
 
-.debug_str      0x00000000     0x2f6d
- .debug_str     0x00000000      0x241 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+.debug_line     0x00000000     0xa3fa
+ .debug_line    0x00000000      0xe88 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_line    0x00000e88      0x3d0 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_line    0x00001258      0x1f0 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_line    0x00001448      0x2c0 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_line    0x00001708      0x8a0 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_line    0x00001fa8      0x5cf CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_line    0x00002577      0x32b CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_line    0x000028a2      0x179 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_line    0x00002a1b      0x1b3 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_line    0x00002bce      0x44a CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_line    0x00003018      0x242 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_line    0x0000325a      0x343 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_line    0x0000359d      0x566 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_line    0x00003b03      0x653 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_line    0x00004156      0xa6d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_line    0x00004bc3      0x5fd CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_line    0x000051c0      0xc46 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_line    0x00005e06     0x2484 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_line    0x0000828a     0x20d5 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_line    0x0000a35f       0x9b CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+
+.debug_str      0x00000000     0x3262
+ .debug_str     0x00000000      0x45d CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+                                0x4bd (size before relaxing)
+ .debug_str     0x0000045d       0xe6 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+                                0x338 (size before relaxing)
+ .debug_str     0x00000543       0x3a CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
                                 0x291 (size before relaxing)
- .debug_str     0x00000241       0xc2 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_str     0x0000057d       0xaf CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
                                 0x276 (size before relaxing)
- .debug_str     0x00000303      0x8d6 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_str     0x0000062c      0x8cf CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
                                 0xbba (size before relaxing)
- .debug_str     0x00000bd9      0x238 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
-                                0x86a (size before relaxing)
- .debug_str     0x00000e11      0x1ee CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_str     0x00000efb      0x23b CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+                                0x8d5 (size before relaxing)
+ .debug_str     0x00001136      0x1ee CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
                                 0x6bf (size before relaxing)
- .debug_str     0x00000fff       0x75 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_str     0x00001324       0x75 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
                                 0x253 (size before relaxing)
- .debug_str     0x00001074       0xd2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_str     0x00001399       0xd2 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
                                 0x256 (size before relaxing)
- .debug_str     0x00001146      0x259 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_str     0x0000146b      0x259 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
                                 0x454 (size before relaxing)
- .debug_str     0x0000139f       0x99 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_str     0x000016c4       0x99 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
                                 0x288 (size before relaxing)
- .debug_str     0x00001438      0x400 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_str     0x0000175d      0x400 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
                                 0x9f3 (size before relaxing)
- .debug_str     0x00001838      0x2e1 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_str     0x00001b5d      0x2e1 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
                                 0x858 (size before relaxing)
- .debug_str     0x00001b19      0x397 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_str     0x00001e3e      0x397 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
                                 0x907 (size before relaxing)
- .debug_str     0x00001eb0      0x25f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_str     0x000021d5      0x25a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
                                 0x631 (size before relaxing)
- .debug_str     0x0000210f      0x14c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_str     0x0000242f      0x121 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
                                 0x434 (size before relaxing)
- .debug_str     0x0000225b      0x20f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_str     0x00002550      0x20f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
                                 0x65f (size before relaxing)
- .debug_str     0x0000246a      0x53d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_str     0x0000275f      0x53d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
                                 0xb9b (size before relaxing)
- .debug_str     0x000029a7      0x57c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_str     0x00002c9c      0x57c CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
                                 0xcc2 (size before relaxing)
- .debug_str     0x00002f23       0x4a CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
+ .debug_str     0x00003218       0x4a CMakeFiles/Test_280.elf.dir/startup/startup_stm32f103xb.s.obj
                                  0x7a (size before relaxing)
 
 .comment        0x00000000       0x49
- .comment       0x00000000       0x49 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .comment       0x00000000       0x49 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
                                  0x4a (size before relaxing)
+ .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
@@ -1988,63 +2051,51 @@ LOAD c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/
  .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
  .comment       0x00000049       0x4a CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
 
-.debug_frame    0x00000000     0x2038
- .debug_frame   0x00000000       0x38 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
- .debug_frame   0x00000038       0x60 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_frame   0x00000098      0x178 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_frame   0x00000210       0x7c CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
- .debug_frame   0x0000028c       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_frame   0x000002ec       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_frame   0x00000314       0xa8 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
- .debug_frame   0x000003bc      0x1a8 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_frame   0x00000564       0x30 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_frame   0x00000594       0x58 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_frame   0x000005ec      0x1cc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_frame   0x000007b8      0x118 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_frame   0x000008d0      0x144 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_frame   0x00000a14       0xe4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_frame   0x00000af8      0x190 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_frame   0x00000c88      0x5a4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_frame   0x0000122c      0x5c4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
- .debug_frame   0x000017f0       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
- .debug_frame   0x00001810       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
- .debug_frame   0x0000183c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
- .debug_frame   0x00001868       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
- .debug_frame   0x000018b0       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
- .debug_frame   0x0000190c       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
- .debug_frame   0x0000192c       0x70 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
- .debug_frame   0x0000199c      0x154 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
- .debug_frame   0x00001af0       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
- .debug_frame   0x00001b24       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
- .debug_frame   0x00001bb0       0x54 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
- .debug_frame   0x00001c04       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
- .debug_frame   0x00001cb4       0x70 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
- .debug_frame   0x00001d24       0x30 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
- .debug_frame   0x00001d54       0x4c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
- .debug_frame   0x00001da0       0x30 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
- .debug_frame   0x00001dd0       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
- .debug_frame   0x00001dfc       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
- .debug_frame   0x00001e88       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
- .debug_frame   0x00001eb4       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
- .debug_frame   0x00001ee8       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
- .debug_frame   0x00001f14       0x3c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
- .debug_frame   0x00001f50       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
- .debug_frame   0x00001f7c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
- .debug_frame   0x00001fa8       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
- .debug_frame   0x00001fd4       0x64 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-reent.o)
-
-.debug_loc      0x00000000     0x67c4
- .debug_loc     0x00000000      0x157 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
- .debug_loc     0x00000157      0x61c CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
- .debug_loc     0x00000773       0x84 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
- .debug_loc     0x000007f7       0x15 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
- .debug_loc     0x0000080c      0x436 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
- .debug_loc     0x00000c42       0xff CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
- .debug_loc     0x00000d41      0x212 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
- .debug_loc     0x00000f53      0x141 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
- .debug_loc     0x00001094      0x71f CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
- .debug_loc     0x000017b3      0x7d1 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
- .debug_loc     0x00001f84      0x47d CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
- .debug_loc     0x00002401      0x63e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
- .debug_loc     0x00002a3f     0x1d4e CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
- .debug_loc     0x0000478d     0x2037 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+.debug_frame    0x00000000     0x241c
+ .debug_frame   0x00000000      0x2bc CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd.c.obj
+ .debug_frame   0x000002bc       0xd8 CMakeFiles/Test_280.elf.dir/Core/Inc/LCD/lcd_init.c.obj
+ .debug_frame   0x00000394       0x38 CMakeFiles/Test_280.elf.dir/Core/Inc/LED/led.c.obj
+ .debug_frame   0x000003cc       0x60 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/delay/delay.c.obj
+ .debug_frame   0x0000042c      0x178 CMakeFiles/Test_280.elf.dir/Core/SYSTEM/usart/usart.c.obj
+ .debug_frame   0x000005a4       0x84 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj
+ .debug_frame   0x00000628       0x60 CMakeFiles/Test_280.elf.dir/Core/Src/spi.c.obj
+ .debug_frame   0x00000688       0x28 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_hal_msp.c.obj
+ .debug_frame   0x000006b0       0xa8 CMakeFiles/Test_280.elf.dir/Core/Src/stm32f1xx_it.c.obj
+ .debug_frame   0x00000758      0x1a8 CMakeFiles/Test_280.elf.dir/Core/Src/syscalls.c.obj
+ .debug_frame   0x00000900       0x30 CMakeFiles/Test_280.elf.dir/Core/Src/system_stm32f1xx.c.obj
+ .debug_frame   0x00000930       0x58 CMakeFiles/Test_280.elf.dir/Core/retarget.c.obj
+ .debug_frame   0x00000988      0x1cc CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c.obj
+ .debug_frame   0x00000b54      0x118 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c.obj
+ .debug_frame   0x00000c6c      0x144 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c.obj
+ .debug_frame   0x00000db0       0xe4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c.obj
+ .debug_frame   0x00000e94      0x190 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c.obj
+ .debug_frame   0x00001024      0x5a4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_spi.c.obj
+ .debug_frame   0x000015c8      0x5c4 CMakeFiles/Test_280.elf.dir/Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c.obj
+ .debug_frame   0x00001b8c       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_mulsf3.o)
+ .debug_frame   0x00001bb0       0x24 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/thumb/v7-m/nofp\libgcc.a(_arm_fixunssfsi.o)
+ .debug_frame   0x00001bd4       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-errno.o)
+ .debug_frame   0x00001bf4       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-init.o)
+ .debug_frame   0x00001c20       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-memset.o)
+ .debug_frame   0x00001c4c       0x48 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-setvbuf.o)
+ .debug_frame   0x00001c94       0x5c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__call_atexit.o)
+ .debug_frame   0x00001cf0       0x20 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-atexit.o)
+ .debug_frame   0x00001d10       0x70 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fflush.o)
+ .debug_frame   0x00001d80      0x154 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-findfp.o)
+ .debug_frame   0x00001ed4       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fini.o)
+ .debug_frame   0x00001f08       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-freer.o)
+ .debug_frame   0x00001f94       0x54 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fwalk.o)
+ .debug_frame   0x00001fe8       0xb0 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lock.o)
+ .debug_frame   0x00002098       0x70 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-makebuf.o)
+ .debug_frame   0x00002108       0x30 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-malloc.o)
+ .debug_frame   0x00002138       0x4c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mallocr.o)
+ .debug_frame   0x00002184       0x30 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-mlock.o)
+ .debug_frame   0x000021b4       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-sbrkr.o)
+ .debug_frame   0x000021e0       0x8c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-stdio.o)
+ .debug_frame   0x0000226c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-writer.o)
+ .debug_frame   0x00002298       0x34 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-__atexit.o)
+ .debug_frame   0x000022cc       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-closer.o)
+ .debug_frame   0x000022f8       0x3c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fclose.o)
+ .debug_frame   0x00002334       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-fstatr.o)
+ .debug_frame   0x00002360       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-lseekr.o)
+ .debug_frame   0x0000238c       0x2c c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-readr.o)
+ .debug_frame   0x000023b8       0x64 c:/progra~2/gnuarm~1/102021~1.10/bin/../lib/gcc/arm-none-eabi/10.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp\libg.a(lib_a-reent.o)
