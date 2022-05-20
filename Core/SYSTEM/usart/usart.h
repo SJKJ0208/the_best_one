@@ -37,6 +37,7 @@ void send_out(int16_t *data,uint8_t length,uint8_t send);
 void send_8bit_out(uint8_t *data,uint8_t length,uint8_t send);
 uint8_t CHeck(uint8_t *data_buf);
 extern uint8_t stata;
+extern uint8_t stata_6050;
 extern uint8_t RX_BUF[50];
 ///6050ËùĞèµÄÅäÖÃ
 

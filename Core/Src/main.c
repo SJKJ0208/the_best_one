@@ -40,8 +40,6 @@ int main(void) {
     /* Configure the system clock */
     SystemClock_Config();
     The_sum_init();
-    uint8_t a = 1;
-
 
     ///≥ı ºªØ«¯”Ú///
 
@@ -50,12 +48,10 @@ int main(void) {
 
     /* Infinite loop */
     while (1) {
-        //The_comcupter_comunicate();
-        HAL_UART_Transmit(&UART2_Handler,a,1,200);
-       // test_6050();
+        The_comcupter_comunicate();
+        test_6050();
     }
-    while (1) {
-    }
+
 }
 
 /**

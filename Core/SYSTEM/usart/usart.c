@@ -269,20 +269,21 @@ void send_8bit_out(uint8_t *data,uint8_t length,uint8_t send)
     }
     USART_Send(TX_DATA,i);
 }
-uint8_t RX_BUF[50]={0},stata=0;
+
+uint8_t RX_BUF_6050[50]={0},stata_6050=0;
 
 //校验和检查
 uint8_t CHeck(uint8_t *data)
 {
     uint8_t sum=0,number=0,i=0;
-    number=RX_BUF[3]+5;
+    number=RX_BUF_6050[3]+5;
     if(number>42)//超过上传数据
         return 0;
     for(i=0;i<number-1;i++)
-        sum+=RX_BUF[i];
-    if(sum==RX_BUF[number-1])
+        sum+=RX_BUF_6050[i];
+    if(sum==RX_BUF_6050[number-1])
     {
-        memcpy(data,RX_BUF,number);
+        memcpy(data,RX_BUF_6050,number);
         return 1;
     }
     else
@@ -316,7 +317,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
 	}
     else if(huart->Instance==USART2)//如果是串口2
     {
-        rebuf[i++]=aRxBuffer[0];
+        rebuf[i++]=bRxBuffer[0];
         if(rebuf[0]!=0x5a)//判断帧头
             i=0;
         if((i==2)&&(rebuf[1]!=0x5a))//判断帧头
@@ -325,8 +326,8 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart)
         {
             if(i==rebuf[3]+5)
             {
-                memcpy(RX_BUF,rebuf,i);
-                stata=1;
+                memcpy(RX_BUF_6050,rebuf,i);
+                stata_6050=1;
                 i=0;
             }
         }
@@ -378,7 +379,7 @@ void USART2_IRQHandler(void)
 
     }
     timeout=0;
-    while(HAL_UART_Receive_IT(&UART2_Handler, (uint8_t *)bRxBuffer, 1) != HAL_OK)
+    while(HAL_UART_Receive_IT(&UART2_Handler, (uint8_t *)bRxBuffer, RXBUFFERSIZE) != HAL_OK)
         //一次处理完成之后，重新开启中断并设置RxXferCount为1
     {
         timeout++; //超时处理

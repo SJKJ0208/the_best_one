@@ -58,15 +58,13 @@ void The_sum_init()
 {
     delay_init(64);
     MX_SPI1_Init();
-    // uart_init_2(115200);
     uart_init_1(115200);
     uart_init_2(115200);
     RetargetInit(&UART1_Handler);
-    LED_Init();//LED初始化
+    //LED_Init();//LED初始化
     LCD_Init();//LCD初始化
     ///6050初始化
     send_Instruction();
-
     ///先对屏幕白化
     LCD_Fill(0,0,LCD_W,LCD_H,WHITE);
 }
@@ -90,9 +88,9 @@ void test_command_open()
 ///test6050单元
 void test_6050()
 {
-    if(!stata)
+    if(!stata_6050)
         return;
-    stata=0;
+    stata_6050=0;
     if(CHeck(data_buf))
     {
         count=0;
