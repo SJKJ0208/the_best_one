@@ -294,8 +294,6 @@ CMakeFiles/Test_280.elf.dir/Core/Src/gpio.c.obj: \
  ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h \
  ../Core/Src/gpio.c
 CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: \
- ../Core/Inc/LCD/lcd.h \
- ../Core/Inc/LCD/lcd_init.h \
  ../Core/Inc/LED/led.h \
  ../Core/Inc/gpio.h \
  ../Core/Inc/main.h \
@@ -303,8 +301,6 @@ CMakeFiles/Test_280.elf.dir/Core/Src/main.c.obj: \
  ../Core/Inc/retarget.h \
  ../Core/Inc/spi.h \
  ../Core/Inc/stm32f1xx_hal_conf.h \
- ../Core/Inc/test_os/test_os.h \
- ../Core/SYSTEM/delay/delay.h \
  ../Core/SYSTEM/sys/sys.h \
  ../Core/SYSTEM/usart/usart.h \
  ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h \

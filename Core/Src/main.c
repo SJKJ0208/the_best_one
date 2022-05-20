@@ -32,28 +32,30 @@ void SystemClock_Config(void);
   * @retval int
   */
 
-int main(void)
-{
-  /* MCU Configuration--------------------------------------------------------*/
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  ///初始化区域///
-  HAL_Init();
-  /* Configure the system clock */
-  SystemClock_Config();
-  The_sum_init();
-  ///初始化区域///
+int main(void) {
+    /* MCU Configuration--------------------------------------------------------*/
+    /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+    ///初始化区域///
+    HAL_Init();
+    /* Configure the system clock */
+    SystemClock_Config();
+    The_sum_init();
+    uint8_t a = 1;
 
-  ///测试区域///
-    test_command_open();
+
+    ///初始化区域///
+
+    ///测试区域///
+    //test_command_open();
 
     /* Infinite loop */
-    while(1)
-    {
-        The_comcupter_comunicate();
-
+    while (1) {
+        //The_comcupter_comunicate();
+        HAL_UART_Transmit(&UART2_Handler,a,1,200);
+       // test_6050();
     }
-  while (1)
-  {
+    while (1) {
+    }
 }
 
 /**

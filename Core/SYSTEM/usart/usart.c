@@ -160,7 +160,6 @@ void HAL_UART_MspInit(UART_HandleTypeDef *huart)
         GPIO_InitTypeDef GPIO_Initure2;
         /* USART2 clock enable */
         __HAL_RCC_USART2_CLK_ENABLE();
-        __HAL_RCC_AFIO_CLK_ENABLE();
         __HAL_RCC_GPIOA_CLK_ENABLE();
         /**USART2 GPIO Configuration
         PA2     ------> USART2_TX
@@ -378,7 +377,6 @@ void USART2_IRQHandler(void)
         if(timeout>HAL_MAX_DELAY) break;
 
     }
-
     timeout=0;
     while(HAL_UART_Receive_IT(&UART2_Handler, (uint8_t *)bRxBuffer, 1) != HAL_OK)
         //一次处理完成之后，重新开启中断并设置RxXferCount为1
@@ -394,40 +392,40 @@ void USART2_IRQHandler(void)
 /*下面代码我们直接把中断控制逻辑写在中断服务函数内部。*/
 
 //串口1中断服务程序
-//void USART1_IRQHandler(void)                	
-//{ 
+//void USART1_IRQHandler(void)
+//{
 //	u8 Res;
 //	HAL_StatusTypeDef err;
 //#if SYSTEM_SUPPORT_OS	 	//使用OS
-//	OSIntEnter();    
+//	OSIntEnter();
 //#endif
 //	if((__HAL_UART_GET_FLAG(&UART1_Handler,UART_FLAG_RXNE)!=RESET))  //接收中断(接收到的数据必须是0x0d 0x0a结尾)
 //	{
-//		Res=USART1->DR; 
+//		Res=USART1->DR;
 //		if((USART_RX_STA&0x8000)==0)//接收未完成
 //		{
 //			if(USART_RX_STA&0x4000)//接收到了0x0d
 //			{
 //				if(Res!=0x0a)USART_RX_STA=0;//接收错误,重新开始
-//				else USART_RX_STA|=0x8000;	//接收完成了 
+//				else USART_RX_STA|=0x8000;	//接收完成了
 //			}
 //			else //还没收到0X0D
-//			{	
+//			{
 //				if(Res==0x0d)USART_RX_STA|=0x4000;
 //				else
 //				{
 //					USART_RX_BUF[USART_RX_STA&0X3FFF]=Res ;
 //					USART_RX_STA++;
-//					if(USART_RX_STA>(USART_REC_LEN-1))USART_RX_STA=0;//接收数据错误,重新开始接收	  
-//				}		 
+//					if(USART_RX_STA>(USART_REC_LEN-1))USART_RX_STA=0;//接收数据错误,重新开始接收
+//				}
 //			}
-//		}   		 
+//		}
 //	}
-//	HAL_UART_IRQHandler(&UART1_Handler);	
+//	HAL_UART_IRQHandler(&UART1_Handler);
 //#if SYSTEM_SUPPORT_OS	 	//使用OS
-//	OSIntExit();  											 
+//	OSIntExit();
 //#endif
-//} 
-//#endif	
+//}
+//#endif
 
 

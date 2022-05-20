@@ -4,21 +4,9 @@
 
 #ifndef TEST_280_MY_WORK_H
 #define TEST_280_MY_WORK_H
-
-#include "main.h"
-#include "stm32f1xx_hal.h"
-#include "spi.h"
-#include "stdlib.h"
-#include "test_os/test_os.h"
 #include "retarget.h"
-#include "stdio.h"
-#include "math.h"
-#include "delay.h"
-#include "sys.h"
-#include "usart.h"
 #include "led.h"
-#include "lcd.h"
-#include "lcd_init.h"
+#include "usart.h"
 
 ///³õÊ¼»¯
 void The_sum_init();
@@ -29,6 +17,8 @@ void The_sum_init();
 void test_lcd();
 ///test_open´úÂë///
 void test_command_open();
+///test_6050
+void test_6050();
 
 
 
