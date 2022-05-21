@@ -174,6 +174,7 @@ void The_sum_init()
 ///4  :行程过远，一般用电量或者实际里程数作为标准
 ///5  :轮椅有左右倾倒的风险***
 ///6  :轮椅可能已经倾倒***
+///0  :轮椅姿态正常
 ///此处有更加简洁的代码写法
 uint8_t test_danger()
 {
@@ -184,18 +185,21 @@ uint8_t test_danger()
     {
         return 2;
     }
-    if (abs((int) rpy[1]/100) >  (0+15) && rpy[1] > 0 && abs((int) rpy[1]/100) <  (0+70))///上仰
+    else if (abs((int) rpy[1]/100) >  (0+15) && rpy[1] > 0 && abs((int) rpy[1]/100) <  (0+70))///上仰
     {
         return 1;
     }
-    if ((abs((int) rpy[0]/100) > (90+15) && abs((int) rpy[0]/100) < (90+70)) || (abs((int) rpy[0]/100) < (90-15) && abs((int) rpy[0]/100) > (15))  )
+    else if ((abs((int) rpy[0]/100) > (90+15) && abs((int) rpy[0]/100) < (90+70)) || (abs((int) rpy[0]/100) < (90-15) && abs((int) rpy[0]/100) > (15))  )
     {
         return 5;
     }
-    if (abs((int) rpy[0]/100) > (90+70)|| abs((int) rpy[0]/100) < (15) || abs((int) rpy[1]/100) >  (0+70))
+    else if (abs((int) rpy[0]/100) > (90+70)|| abs((int) rpy[0]/100) < (15) || abs((int) rpy[1]/100) >  (0+70))
     {
         return 6;
     }
+    else
+        return 0;
+
     return 0;
 }
 void Lcd_num()
@@ -208,11 +212,23 @@ void Lcd_num()
         //update_data
         ///温度
         LCD_ShowIntNum(20+32+32+32,70/2-32/2,(int)((float) Temp/100),2,RED,WHITE,32);
+        print_data("tm",(int)((float) Temp/100));
         ///速度
         LCD_ShowIntNum(20+32+32+32,70/2+70-32/2,speed,2,RED,WHITE,32);
+        print_data("sp",speed);
+
         if (test_danger() == 1||test_danger() == 2)
         {
             LCD_ShowIntNum(40+32,70/2+210-32/2,abs((int) rpy[1]/100),2,RED,WHITE,32);
+            if (test_danger() == 1)
+                print_data("syar",abs((int) rpy[1]/100));
+            if (test_danger() == 2)
+                print_data("fsar",abs((int) rpy[1]/100));
+
+        }
+        else
+        {
+            print_data("ar",0);
         }
     }
 }
@@ -267,7 +283,10 @@ void tip_lcd(int tip)
             break;
     }
 }
+void now_state_report()
+{
 
+}
 void danger_reply()
 {
     if (test_danger())     ///消除广告
@@ -276,7 +295,10 @@ void danger_reply()
         LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"一路平安",WHITE,WHITE,32,0);
     }
     else
+    {
         LCD_ShowChinese(20+32+32+10,70/2+140-32/2,"一路平安",GREEN,WHITE,32,0);
+        print_data("d",0);
+    }
     tip_lcd(test_danger());
     switch (test_danger()) {
         case 5:
@@ -294,6 +316,7 @@ void danger_reply()
         case 2:
             //printf("请注意下坡坡度");
             print_data("d",2);
+            break;
     }
 }
 void use_6050()
